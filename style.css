@@ -7,7 +7,6 @@
 input, select {
   color: #0068a1;
   border-radius: 4px;
-  border-style: none;
 }
 
 *:focus {
