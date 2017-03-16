@@ -1,0 +1,90 @@
+* {
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  color: white;
+}
+
+input, select {
+  color: #0068a1;
+  border-radius: 4px;
+  border-style: none;
+}
+
+*:focus {
+  outline: none;
+}
+
+a {
+  text-decoration:none;
+}
+
+.f9cnqx3j4r4398 {
+  height: 57px;
+  line-height: 57px;
+  vertical-align: middle;
+}
+
+.left{
+  float:left;
+}
+
+.right{
+  float: right;
+}
+
+#calculator_container {
+  height: 400px;
+  width: 400px;
+  background: linear-gradient(to right bottom, #0068a1 50%, #a1dc51 50%);
+  border-radius: 4px;
+  border-style: none;
+  padding: 20px;
+}
+
+.center {
+  font-weight: 700;
+  font-size: 26px;
+  color: white;
+  text-align: center;
+}
+
+#calculator_submit_button {
+  height: 57px;
+  color: white;
+  background-color: #f58d1e;
+  border-color: #f58d1e;
+  border-style: solid;
+  border-radius: 4px;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+#calculator_submit_button:hover {
+  color: #f58d1e;
+  background-color: white;
+}
+
+#absolute_coachin_logo{
+  height: 53px;
+  border-radius: 4px;
+  border-width: 2px;
+  border-style: none;
+  border-color: #f58d1e;
+}
+
+#substitute_food_weight_output_div{
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#Powered_By{
+  color: white;
+  font-size: 12px;
+  vertical-align:top;
+  padding-right: 10px;
+}

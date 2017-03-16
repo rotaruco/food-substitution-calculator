@@ -1,11 +1,51 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="style.css">
-  <script type="text/javascript" src="script.js"></script>
 </head>
 <body>
   <div id="calculator_container">
+    <div class="f9cnqx3j4r4398">
+      <center><span class="center">Food Substitution Calculator</span></center>
+    </div>
+    <div class="f9cnqx3j4r4398">
+      <span class="left"><label for="food_to_be_substituted_input">Food To Be Substituted</label></span>
+      <span class="right">
+        <input type="text" required list="food_to_be_substituted_input_autocomplete_list" id="food_to_be_substituted_input" name="food_to_be_substituted_input">
+        <datalist id="food_to_be_substituted_input_autocomplete_list">
+        </datalist>
+      </span>
+    </div>
+    <div class="f9cnqx3j4r4398">
+      <span class="left"><label for="amount_to_be_substituted_input">Food Weight</label></span>
+      <span class="right"><input type="number" required step="1" pattern="^[1-9]\d*$" id="amount_to_be_substituted_input" name="amount_to_be_substituted_input"></span>
+    </div>
+    <div class="f9cnqx3j4r4398">
+      <span class="left"><label for="units_to_be_substituted_input">Units</label></span>
+      <span class="right">
+        <select required id="units_to_be_substituted_input">
+          <option value="Grams">Grams</option>
+          <option value="Ounces">Ounces</option>
+        </select>
+      </span>
+    </div>
+    <div class="f9cnqx3j4r4398">
+      <span class="left"><label for="substitute_food_input">Substitution Food</label></span>
+      <span class="right">
+        <input type="text" required list="substitute_food_input_autocomplete_list" id="substitute_food_input" name="substitute_food_input">
+        <datalist id="substitute_food_input_autocomplete_list">
+        </datalist>
+      </span>
+    </div>
+    <div class="f9cnqx3j4r4398" id="substitute_food_weight_output_div">
+      <output id="substitute_food_weight_output" name="substitute_food_weight_output"></output>
+    </div>
+    <div class="f9cnqx3j4r4398">
+      <span class="left"><input type="submit" id="calculator_submit_button" name="calculator_submit_button"></span>
+      <span class="right"><a href="https://www.absolutecoaching.ca/"><span id="Powered_By">Powered By</span><img id="absolute_coachin_logo" src="Absolute Coaching.jpg" /></img></a></span>
+    </div>
   </div>
+  <script type="text/javascript" src="script.js"></script>
 </body>
 </html>
