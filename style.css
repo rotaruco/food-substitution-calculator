@@ -34,6 +34,10 @@ a {
 #calculator_container {
   height: auto;
   width: 400px;
+  background: #0068a1; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(right bottom, #0068a1 50%, #a1dc51 50%); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right bottom, #0068a1 50%, #a1dc51 50%); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right bottom, #0068a1 50%, #a1dc51 50%); /* For Firefox 3.6 to 15 */
   background: linear-gradient(to right bottom, #0068a1 50%, #a1dc51 50%);
   border-radius: 4px;
   border-style: none;
