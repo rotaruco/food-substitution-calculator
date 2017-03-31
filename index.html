@@ -16,6 +16,11 @@
       <span class="right">
         <input type="text" required list="food_to_be_substituted_input_autocomplete_list" id="food_to_be_substituted_input" name="food_to_be_substituted_input">
         <datalist id="food_to_be_substituted_input_autocomplete_list">
+          <option value="Internet Explorer" />
+          <option value="Firefox" />
+          <option value="Chrome" />
+          <option value="Opera" />
+          <option value="Safari" />
         </datalist>
       </span>
     </div>
@@ -24,7 +29,7 @@
         <label for="amount_to_be_substituted_input">Food Weight</label>
       </span>
       <span class="right">
-        <input type="number" required step="1" pattern="^[1-9]\d*$" id="amount_to_be_substituted_input" name="amount_to_be_substituted_input">
+        <input type="number" required step="1" min="0" pattern="^[1-9]\d*$" id="amount_to_be_substituted_input" name="amount_to_be_substituted_input">
       </span>
     </div>
     <div class="f9cnqx3j4r4398">
@@ -63,6 +68,7 @@
       </span>
     </div>
   </div>
-  <script type="text/javascript" src="script.js"></script>
+  <script type="text/javascript" src="papaparse.min.js"></script>
+  <script type="text/javascript" src="mainscript.js"></script>
 </body>
 </html>
