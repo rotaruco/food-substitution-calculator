@@ -61,7 +61,7 @@ function dataToDataList(data, dataListID) {
     var l = document.createElement("li");
     l.innerText = data[i]['Name'];
     l.id = data[i]['Name'];
-    dataList.push(l);
+    dataList.append(l);
   }
 }
 
