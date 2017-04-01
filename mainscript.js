@@ -77,7 +77,7 @@ function setFoodToBeSubstituted() {
           tempData.push({score: score, Name: data[j]['Name']});
         }
       }
-      dataToDataList(stage2data.sort(function(a, b) {
+      dataToDataList(tempData.sort(function(a, b) {
         return a.score - b.score;
       }).slice(0, 50), 'substitute_food_input_autocomplete_list');
     }
