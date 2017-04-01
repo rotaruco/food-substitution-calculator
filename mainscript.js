@@ -104,7 +104,7 @@ function setSubstituteFood(){
   }
 }
 
-Papa.parse("https://raw.githubusercontent.com/DragosRotaru/Absolute-Coaching-Food-Substitution-Calculator/master/data.csv", {
+Papa.parse("https://absolutecoachingcalculator.rotaru.co/data.csv", {
 	download: true,
   header: true,
   dynamicTyping: true,
