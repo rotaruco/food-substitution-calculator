@@ -9,6 +9,10 @@ input, select {
   border-style: none;
 }
 
+#food_to_be_substituted_input{  width: 300px;}
+
+#substitute_food_input{  width: 300px;}
+
 *:focus {
   outline: none;
 }
@@ -19,12 +23,8 @@ a {
 }
 
 .f9cnqx3j4r4398 {
-  height: 60px;
+  height: 80px;
   vertical-align: middle;
-}
-
-datalist {
-  height: 400px;
 }
 
 .left{
@@ -35,9 +35,40 @@ datalist {
   float: right;
 }
 
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    width: 302px;
+    max-height: 50vh;
+    overflow: scroll;
+    margin: 0px;
+    padding: 0px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* items inside the dropdown */
+.dropdown-content li {
+    color: black;
+    font-size: 14px;
+    padding: 10px 10px;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content li:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
 #calculator_container {
   height: auto;
-  width: 400px;
+  min-height: 500px;
+  width: 500px;
   background: #0068a1; /* For browsers that do not support gradients */
   background: -webkit-linear-gradient(right bottom, #0068a1 50%, #a1dc51 50%); /* For Safari 5.1 to 6.0 */
   background: -o-linear-gradient(right bottom, #0068a1 50%, #a1dc51 50%); /* For Opera 11.1 to 12.0 */

@@ -3,6 +3,7 @@ OUTPUT_MESSAGE = ' of the substitute is needed to provide the same amount of cal
 OZ = 'oz';
 G = 'g';
 data = [];
+data2 = [];
 
 CALORIES_PER_GRAM = {
   food_to_be_substituted_input: 0,
@@ -33,8 +34,22 @@ function calculate() {
   if (calsPerGram1 <= 0 || calsPerGram2 <= 0) {
     result = "Please select foods from the dropdown menu";
   }
-  console.log(typeof amountToBeSubstituted, amountToBeSubstituted);
   document.getElementById('substitute_food_weight_output').value = result;
+}
+
+function search(string, data) {
+  if (string == '') {
+    return data;
+  }
+  tempData = [];
+  for (var i in data){
+    if (data[i].Name.toLowerCase().indexOf(string.toLowerCase()) >= 0){
+      console.log(data[i].Name.toLowerCase(), string.toLowerCase());
+      tempData.push({Name: data[i].Name});
+    }
+  }
+  console.log(string);
+  return tempData;
 }
 
 function dataToDataList(data, dataListID) {
@@ -42,10 +57,11 @@ function dataToDataList(data, dataListID) {
   while (dataList.firstChild) {
     dataList.removeChild(dataList.firstChild);
   }
-  for (var i in data) {
-    var o = document.createElement("option");
-    o.value = data[i]['Name'];
-    dataList.append(o);
+  for (var i = 0; i < data.length; i++) {
+    var l = document.createElement("li");
+    l.innerText = data[i]['Name'];
+    l.id = data[i]['Name'];
+    dataList.append(l);
   }
 }
 
@@ -72,9 +88,10 @@ function setFoodToBeSubstituted() {
           tempData.push({score: score, Name: data[j]['Name']});
         }
       }
-      dataToDataList(tempData.sort(function(a, b) {
+      data2 = tempData.sort(function(a, b) {
         return a.score - b.score;
-      }).slice(0, 50), 'substitute_food_input_autocomplete_list');
+      }).slice(0, 50);
+      dataToDataList(data2, 'substitute_food_input_autocomplete_list');
     }
   }
 }
@@ -98,12 +115,46 @@ Papa.parse("https://raw.githubusercontent.com/DragosRotaru/Absolute-Coaching-Foo
 	}
 });
 
-document.getElementById('food_to_be_substituted_input').oninput = function () {
-  setFoodToBeSubstituted();
+firstul = document.getElementById('food_to_be_substituted_input_autocomplete_list');
+
+firstul.addEventListener('click', function(e) {
+  var target = e.target; // Clicked element
+  while (target && target.parentNode !== firstul) {
+    target = target.parentNode; // If the clicked element isn't a direct child
+    if(!target) { return; } // If element doesn't exist
+  }
+  if (target.tagName === 'LI'){
+    document.getElementById('food_to_be_substituted_input_autocomplete_list').style.display='none';
+    document.getElementById('food_to_be_substituted_input').value = target.id;
+    setFoodToBeSubstituted();
+  }
+});
+
+secondul = document.getElementById('substitute_food_input_autocomplete_list');
+
+secondul.addEventListener('click', function(e) {
+  var target = e.target; // Clicked element
+  while (target && target.parentNode !== secondul) {
+    target = target.parentNode; // If the clicked element isn't a direct child
+    if(!target) { return; } // If element doesn't exist
+  }
+  if (target.tagName === 'LI'){
+    document.getElementById('substitute_food_input_autocomplete_list').style.display='none';
+    document.getElementById('substitute_food_input').value = target.id;
+    setSubstituteFood();
+  }
+});
+
+document.getElementById('food_to_be_substituted_input').onkeyup = function () {
+  dataToDataList(search(document.getElementById('food_to_be_substituted_input').value, data), 'food_to_be_substituted_input_autocomplete_list');
 };
 
-document.getElementById('substitute_food_input').oninput = function () {
-  setSubstituteFood();
+document.getElementById('substitute_food_input').onkeydown = function () {
+  dataToDataList(search(document.getElementById('substitute_food_input').value, data2), 'substitute_food_input_autocomplete_list');
 };
+
+document.getElementById('food_to_be_substituted_input').onfocus = function() {
+  document.getElementById('food_to_be_substituted_input_autocomplete_list').style.display='block';
+}
 
 document.getElementById('calculator_submit_button').onclick = calculate;
