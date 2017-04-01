@@ -34,7 +34,7 @@ function calculate() {
   if (calsPerGram1 <= 0 || calsPerGram2 <= 0) {
     result = "Please select foods from the dropdown menu";
   }
-  document.getElementById('substitute_food_weight_output').value = result;
+  document.getElementById('substitute_food_weight_output').innerText = result;
 }
 
 function search(string, data) {
@@ -155,6 +155,9 @@ document.getElementById('substitute_food_input').onkeydown = function () {
 
 document.getElementById('food_to_be_substituted_input').onfocus = function() {
   document.getElementById('food_to_be_substituted_input_autocomplete_list').style.display='block';
-}
+};
 
-document.getElementById('calculator_submit_button').onclick = calculate;
+document.getElementById('calculator_submit_button').onclick = function() {
+  calculate();
+  console.log("yes");
+}
