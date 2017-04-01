@@ -63,7 +63,7 @@ function setFoodToBeSubstituted() {
       var cpg = data[i]['Carbs per gram'];
       var fpg = data[i]['Fat per gram'];
       var cat = data[i]['Category'];
-      var stage2data = [];
+      var tempData = [];
       for (var j in data) {
         if (data[j]['Name'] != value) {
           var ppg2 = data[j]['Protein per gram'];
@@ -74,7 +74,7 @@ function setFoodToBeSubstituted() {
           if (cat == cat2) {
             score = score * 0.50;
           }
-          stage2data.push({ppg: ppg2, cpg: cpg2, fpg: fpg2, score: score, Name: data[j]['Name']});
+          tempData.push({score: score, Name: data[j]['Name']});
         }
       }
       dataToDataList(stage2data.sort(function(a, b) {
@@ -93,7 +93,6 @@ function setSubstituteFood(){
   }
 }
 
-
 Papa.parse("https://raw.githubusercontent.com/DragosRotaru/Absolute-Coaching-Food-Substitution-Calculator/master/data.csv", {
 	download: true,
   header: true,
@@ -104,11 +103,9 @@ Papa.parse("https://raw.githubusercontent.com/DragosRotaru/Absolute-Coaching-Foo
 	}
 });
 
-
 document.getElementById('food_to_be_substituted_input').oninput = function () {
   setFoodToBeSubstituted();
 };
-
 
 document.getElementById('substitute_food_input').oninput = function () {
   setSubstituteFood();

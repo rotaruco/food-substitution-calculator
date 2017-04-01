@@ -23,8 +23,8 @@ a {
   vertical-align: middle;
 }
 
-ul {
-  list-style: none;
+datalist {
+  height: 400px;
 }
 
 .left{
