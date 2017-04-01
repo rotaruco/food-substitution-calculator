@@ -119,23 +119,20 @@ a {
 }
 
 #substitute_food_weight_output_div {
-  border-color: #f58d1e;
-  border-width: 2px;
   background-color: white;
 	overflow: hidden;
 }
 
 .dontshow {
   max-height: 0;
-  -webkit-transition: max-height 1s linear;
-  -moz-transition: max-height 1s linear;
-  -o-transition: max-height 1s linear;
-  -ms-transition: max-height 1s linear;
-  transition: max-height 1s linear;
+  -webkit-transition: max-height 0.6s linear;
+  -moz-transition: max-height 0.6s linear;
+  -o-transition: max-height 0.6s linear;
+  -ms-transition: max-height 0.6s linear;
+  transition: max-height 0.6s linear;
 }
 
 .show {
-  border-style: solid;
   padding: 10px 10px;
   max-height: 60px;
 }
