@@ -23,6 +23,10 @@ a {
   vertical-align: middle;
 }
 
+ul {
+  list-style: none;
+}
+
 .left{
   float:left;
 }
