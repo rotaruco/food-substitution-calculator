@@ -1,6 +1,5 @@
 GRAMS_IN_OUNCES = 28.3495;
 OUTPUT_MESSAGE = ' of the substitute is needed to provide the same amount of calories';
-ERROR_CALORIES_MESSAGE = 'sorry, that substitute is not possible';
 OZ = 'oz';
 G = 'g';
 data = [];
@@ -11,13 +10,13 @@ CALORIES_PER_GRAM = {
 };
 
 function calculate() {
-  var amountToBeSubstituted = document.getElementById('amount_to_be_substituted_input').value;
+  var amountToBeSubstituted = parseInt(document.getElementById('amount_to_be_substituted_input').value);
   var unitsToBeSubstituted = document.getElementById('units_to_be_substituted_input').value;
   var calsPerGram1 = CALORIES_PER_GRAM['food_to_be_substituted_input'];
   var calsPerGram2 = CALORIES_PER_GRAM['substitute_food_input'];
 
   if (unitsToBeSubstituted === 'Ounces') {
-    var foodInGrams1 = parseInt(amountToBeSubstituted) * GRAMS_IN_OUNCES;
+    var foodInGrams1 = amountToBeSubstituted * GRAMS_IN_OUNCES;
     var calsToReplace = foodInGrams1 * calsPerGram1;
     var foodInGrams2 = calsToReplace / calsPerGram2;
     var foodInOunces2 = foodInGrams2 / GRAMS_IN_OUNCES;
@@ -28,17 +27,13 @@ function calculate() {
     var foodInGrams2 = calsToReplace / calsPerGram2;
     result = String(Math.round(foodInGrams2)) + G + OUTPUT_MESSAGE;
   }
-  if (!isFinite(foodInGrams2) || foodInGrams2 < 0 ) {
-    result = ERROR_CALORIES_MESSAGE;
+  if (amountToBeSubstituted <= 0 || amountToBeSubstituted == NaN ) {
+    result = "Please input a food amount";
   }
   if (calsPerGram1 <= 0 || calsPerGram2 <= 0) {
-    result = "Please select both foods from the dropdown menu";
+    result = "Please select foods from the dropdown menu";
   }
-  console.log('grams of first food: ', foodInGrams1);
-  console.log('calories To Replace: ', calsToReplace)
-  console.log('cal/g of first food: ', calsPerGram1)
-  console.log('cal/g of second food: ', calsPerGram2)
-  console.log('result: ', result);
+  console.log(typeof amountToBeSubstituted, amountToBeSubstituted);
   document.getElementById('substitute_food_weight_output').value = result;
 }
 
