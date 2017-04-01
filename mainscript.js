@@ -35,8 +35,7 @@ function calculate() {
     result = "Please select foods from the dropdown menu";
   }
   document.getElementById('substitute_food_weight_output').innerText = result;
-  document.getElementById('substitute_food_weight_output_div').style.display='block';
-  document.getElementById('substitute_food_weight_output_div').style.maxHeight = "60px";
+  document.getElementById('substitute_food_weight_output_div').className += ' show';
 }
 
 function search(string, data) {
@@ -49,7 +48,6 @@ function search(string, data) {
       tempData.push({Name: data[i].Name});
     }
   }
-  console.log(string);
   return tempData;
 }
 
@@ -150,12 +148,16 @@ document.getElementById('food_to_be_substituted_input').onkeyup = function () {
   dataToDataList(search(document.getElementById('food_to_be_substituted_input').value, data), 'food_to_be_substituted_input_autocomplete_list');
 };
 
-document.getElementById('substitute_food_input').onkeydown = function () {
+document.getElementById('substitute_food_input').onkeyup = function () {
   dataToDataList(search(document.getElementById('substitute_food_input').value, data2), 'substitute_food_input_autocomplete_list');
 };
 
 document.getElementById('food_to_be_substituted_input').onfocus = function() {
   document.getElementById('food_to_be_substituted_input_autocomplete_list').style.display='block';
+};
+
+document.getElementById('substitute_food_input').onfocus = function() {
+  document.getElementById('substitute_food_input_autocomplete_list').style.display='block';
 };
 
 document.getElementById('calculator_submit_button').onclick = function() {

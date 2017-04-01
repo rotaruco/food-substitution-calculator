@@ -119,18 +119,27 @@ a {
 }
 
 #substitute_food_weight_output_div {
-  display: none;
-  background-color: #f58d1e;
-  border-radius: 4px;
-  padding: 10px 10px;
-	max-height: 0;
+  border-color: #f58d1e;
+  border-width: 2px;
+  background-color: white;
 	overflow: hidden;
-	/* Set our transitions up. */
-	-webkit-transition: max-height 0.8s;
-	-moz-transition: max-height 0.8s;
-	transition: max-height 0.8s;
+}
+
+.dontshow {
+  max-height: 0;
+  -webkit-transition: max-height 1s linear;
+  -moz-transition: max-height 1s linear;
+  -o-transition: max-height 1s linear;
+  -ms-transition: max-height 1s linear;
+  transition: max-height 1s linear;
+}
+
+.show {
+  border-style: solid;
+  padding: 10px 10px;
+  max-height: 60px;
 }
 
 #substitute_food_weight_output {
-  color: white;
+color: #f58d1e;
 }
