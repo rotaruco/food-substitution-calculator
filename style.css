@@ -88,6 +88,7 @@ a {
 
 #calculator_submit_button {
   height: 60px;
+  width: 200px;
   color: white;
   background-color: #f58d1e;
   border-color: #f58d1e;
@@ -115,5 +116,21 @@ a {
   height: 60px;
   border-radius: 4px;
   border-style: none;
-  padding-left: 10px;
+}
+
+#substitute_food_weight_output_div {
+  display: none;
+  background-color: #f58d1e;
+  border-radius: 4px;
+  padding: 10px 10px;
+	max-height: 0;
+	overflow: hidden;
+	/* Set our transitions up. */
+	-webkit-transition: max-height 0.8s;
+	-moz-transition: max-height 0.8s;
+	transition: max-height 0.8s;
+}
+
+#substitute_food_weight_output {
+  color: white;
 }

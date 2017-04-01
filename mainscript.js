@@ -28,13 +28,15 @@ function calculate() {
     var foodInGrams2 = calsToReplace / calsPerGram2;
     result = String(Math.round(foodInGrams2)) + G + OUTPUT_MESSAGE;
   }
-  if (amountToBeSubstituted <= 0 || amountToBeSubstituted == NaN ) {
+  if (amountToBeSubstituted <= 0 || isNaN(amountToBeSubstituted) ) {
     result = "Please input a food amount";
   }
   if (calsPerGram1 <= 0 || calsPerGram2 <= 0) {
     result = "Please select foods from the dropdown menu";
   }
   document.getElementById('substitute_food_weight_output').innerText = result;
+  document.getElementById('substitute_food_weight_output_div').style.display='block';
+  document.getElementById('substitute_food_weight_output_div').style.maxHeight = "60px";
 }
 
 function search(string, data) {
@@ -44,7 +46,6 @@ function search(string, data) {
   tempData = [];
   for (var i in data){
     if (data[i].Name.toLowerCase().indexOf(string.toLowerCase()) >= 0){
-      console.log(data[i].Name.toLowerCase(), string.toLowerCase());
       tempData.push({Name: data[i].Name});
     }
   }
@@ -159,5 +160,4 @@ document.getElementById('food_to_be_substituted_input').onfocus = function() {
 
 document.getElementById('calculator_submit_button').onclick = function() {
   calculate();
-  console.log("yes");
 }
