@@ -32,7 +32,7 @@ function calculate() {
     result = ERROR_CALORIES_MESSAGE;
   }
   if (calsPerGram1 <= 0 || calsPerGram2 <= 0) {
-    result = "one of the selected foods has zero calories.";
+    result = "Please select both foods from the dropdown menu";
   }
   console.log('grams of first food: ', foodInGrams1);
   console.log('calories To Replace: ', calsToReplace)
