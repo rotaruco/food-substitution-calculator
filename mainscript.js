@@ -54,13 +54,10 @@ function dataToDataList(data, dataListID) {
   }
 }
 
-function sortByScore(data) {
-
-}
-
-function stage2(value) {
-  for (var i in data) {
-    if (data[i]['Name'] == value) {
+function setFoodToBeSubstituted() {
+  var value = document.getElementById('food_to_be_substituted_input').value;
+  for (var i = 0; i < data.length; i++) {
+    if(data[i].Name === value){
       CALORIES_PER_GRAM['food_to_be_substituted_input'] = data[i]['Calories per gram'];
       var ppg = data[i]['Protein per gram'];
       var cpg = data[i]['Carbs per gram'];
@@ -80,40 +77,18 @@ function stage2(value) {
           stage2data.push({ppg: ppg2, cpg: cpg2, fpg: fpg2, score: score, Name: data[j]['Name']});
         }
       }
-      console.log(stage2data.sort(function(a, b) {
-        return a.score - b.score;
-      }));
-
       dataToDataList(stage2data.sort(function(a, b) {
         return a.score - b.score;
-      }), 'substitute_food_input_autocomplete_list');
-    }
-  }
-}
-
-function setFoodToBeSubstituted() {
-  //get values in DOM
-  var value = document.getElementById('food_to_be_substituted_input').value;
-  var list = document.getElementById('food_to_be_substituted_input_autocomplete_list');
-  //Did the user choose a list item or are they still typing?
-  for (var i = 0; i < list.children.length; i++) {
-    if(list.children[i].value === value){
-      stage2(value);
+      }).slice(0, 50), 'substitute_food_input_autocomplete_list');
     }
   }
 }
 
 function setSubstituteFood(){
   var value = document.getElementById('substitute_food_input').value;
-  var list = document.getElementById('substitute_food_input_autocomplete_list');
-  //Did the user choose a list item or are they still typing?
-  for (var i = 0; i < list.children.length; i++) {
-    if(list.children[i].value === value){
-      for (var i in data) {
-        if (data[i]['Name'] == value) {
-          CALORIES_PER_GRAM['substitute_food_input'] = data[i]['Calories per gram'];
-        }
-      }
+  for (var i = 0; i < data.length; i++) {
+    if (data[i]['Name'] == value) {
+      CALORIES_PER_GRAM['substitute_food_input'] = data[i]['Calories per gram'];
     }
   }
 }
@@ -133,6 +108,7 @@ Papa.parse("https://raw.githubusercontent.com/DragosRotaru/Absolute-Coaching-Foo
 document.getElementById('food_to_be_substituted_input').oninput = function () {
   setFoodToBeSubstituted();
 };
+
 
 document.getElementById('substitute_food_input').oninput = function () {
   setSubstituteFood();
