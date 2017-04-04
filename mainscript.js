@@ -12,24 +12,20 @@ SFI = 0;
 
 function calculate() {
   if (UNITS_TO_BE_SUBSTITUTED === 'Ounces') {
-    var foodInGrams1 = AMOUNT_TO_BE_SUBSTITUTED * GRAMS_IN_OUNCES;
-    var calsToReplace = foodInGrams1 * FTBSI;
-    var foodInGrams2 = calsToReplace / SFI;
-    var foodInOunces2 = foodInGrams2 / GRAMS_IN_OUNCES;
-    result = String(Math.round(foodInOunces2)) + OZ + OUTPUT_MESSAGE;
+    var resultInGrams = (AMOUNT_TO_BE_SUBSTITUTED * GRAMS_IN_OUNCES * FTBSI)  / SFI;
+    var result = resultInGrams / GRAMS_IN_OUNCES;
+    var output = String(result.toFixed(2)) + OZ + OUTPUT_MESSAGE;
   } else {
-    var foodInGrams1 = AMOUNT_TO_BE_SUBSTITUTED;
-    var calsToReplace = foodInGrams1 * FTBSI;
-    var foodInGrams2 = calsToReplace / SFI;
-    result = String(Math.round(foodInGrams2)) + G + OUTPUT_MESSAGE;
+    var result = (AMOUNT_TO_BE_SUBSTITUTED * FTBSI) / SFI;
+    var output = String(result.toFixed(2)) + G + OUTPUT_MESSAGE;
   }
   if (AMOUNT_TO_BE_SUBSTITUTED <= 0 || isNaN(AMOUNT_TO_BE_SUBSTITUTED)) {
-    result = "Please input a food amount";
+    var output = "Please input a food amount";
   }
   if (FTBSI <= 0 || SFI <= 0) {
-    result = "Please select foods from the dropdown menu";
+    var output = "Please select foods from the dropdown menu";
   }
-  document.getElementById('substitute_food_weight_output').innerText = result;
+  document.getElementById('substitute_food_weight_output').innerText = output;
   document.getElementById('substitute_food_weight_output_div').className += ' show';
   document.getElementById('calculator_reset_button').className =+ ' resetshow';
 }
@@ -187,4 +183,8 @@ document.getElementById('calculator_reset_button').onclick = function() {
   FTBSI = 0;
   SFI = 0;
   AMOUNT_TO_BE_SUBSTITUTED = 0;
+  var dataList = document.getElementById('substitute_food_input_autocomplete_list');
+  while (dataList.firstChild) {
+    dataList.removeChild(dataList.firstChild);
+  }
 }
