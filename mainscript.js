@@ -25,9 +25,9 @@ function calculate() {
   if (FTBSI <= 0 || SFI <= 0) {
     var output = "Please select foods from the dropdown menu";
   }
-  document.getElementById('substitute_food_weight_output').innerText = output;
-  document.getElementById('substitute_food_weight_output_div').className += ' show';
-  document.getElementById('calculator_reset_button').className =+ ' resetshow';
+  document.getElementById('output').innerText = output;
+  document.getElementById('output_div').className += ' show';
+  document.getElementById('reset_button').className =+ ' resetshow';
 }
 
 function search(string, data) {
@@ -57,9 +57,9 @@ function dataToDataList(data, dataListID) {
 }
 
 function setFoodToBeSubstituted() {
-  var value = document.getElementById('food_to_be_substituted_input').value;
+  var value = document.getElementById('initial_input').value;
   for (var i = 0; i < data.length; i++) {
-    if(data[i].Name === value){
+    if(data[i].Name == value){
       FTBSI = data[i]['Calories per gram'];
       var ppg = data[i]['Protein per gram'];
       var cpg = data[i]['Carbs per gram'];
@@ -76,19 +76,21 @@ function setFoodToBeSubstituted() {
           if (cat == cat2) {
             score = score * 0.50;
           }
-          tempData.push({score: score, Name: data[j]['Name']});
+          if (!isNaN(score)){
+            tempData.push({score: score, Name: data[j]['Name']});
+          }
         }
       }
       data2 = tempData.sort(function(a, b) {
         return a.score - b.score;
       }).slice(0, tempData.length / 3);
-      dataToDataList(data2, 'substitute_food_input_autocomplete_list');
+      dataToDataList(data2, 'substitute_list');
     }
   }
 }
 
 function setSubstituteFood(){
-  var value = document.getElementById('substitute_food_input').value;
+  var value = document.getElementById('substitute_input').value;
   for (var i = 0; i < data.length; i++) {
     if (data[i]['Name'] == value) {
       SFI = data[i]['Calories per gram'];
@@ -102,11 +104,11 @@ Papa.parse("https://absolutecoachingcalculator.rotaru.co/data.csv", {
   dynamicTyping: true,
 	complete: function(results) {
 		data = results.data;
-    dataToDataList(data, 'food_to_be_substituted_input_autocomplete_list');
+    dataToDataList(data, 'initial_list');
 	}
 });
 
-firstul = document.getElementById('food_to_be_substituted_input_autocomplete_list');
+firstul = document.getElementById('initial_list');
 
 firstul.addEventListener('click', function(e) {
   var target = e.target; // Clicked element
@@ -115,8 +117,8 @@ firstul.addEventListener('click', function(e) {
     if(!target) { return; } // If element doesn't exist
   }
   if (target.tagName === 'LI'){
-    document.getElementById('food_to_be_substituted_input_autocomplete_list').style.display='none';
-    document.getElementById('food_to_be_substituted_input').value = target.id;
+    document.getElementById('initial_list').style.display='none';
+    document.getElementById('initial_input').value = target.id;
     setFoodToBeSubstituted();
     if (SFI > 0 && AMOUNT_TO_BE_SUBSTITUTED > 0 ) {
       calculate();
@@ -124,7 +126,7 @@ firstul.addEventListener('click', function(e) {
   }
 });
 
-secondul = document.getElementById('substitute_food_input_autocomplete_list');
+secondul = document.getElementById('substitute_list');
 
 secondul.addEventListener('click', function(e) {
   var target = e.target; // Clicked element
@@ -133,8 +135,8 @@ secondul.addEventListener('click', function(e) {
     if(!target) { return; } // If element doesn't exist
   }
   if (target.tagName === 'LI'){
-    document.getElementById('substitute_food_input_autocomplete_list').style.display='none';
-    document.getElementById('substitute_food_input').value = target.id;
+    document.getElementById('substitute_list').style.display='none';
+    document.getElementById('substitute_input').value = target.id;
     setSubstituteFood();
     if (FTBSI > 0 && AMOUNT_TO_BE_SUBSTITUTED > 0 ) {
       calculate();
@@ -142,48 +144,61 @@ secondul.addEventListener('click', function(e) {
   }
 });
 
-document.getElementById('amount_to_be_substituted_input').onkeyup = function() {
-  AMOUNT_TO_BE_SUBSTITUTED = parseInt(document.getElementById('amount_to_be_substituted_input').value);
+document.getElementById('amount_input').onkeyup = function() {
+  AMOUNT_TO_BE_SUBSTITUTED = parseInt(document.getElementById('amount_input').value);
   if (FTBSI > 0 && SFI > 0 ) {
     calculate();
   }
 }
 
-document.getElementById('units_to_be_substituted_input').onchange = function() {
-  UNITS_TO_BE_SUBSTITUTED = document.getElementById('units_to_be_substituted_input').value;
+document.getElementById('units_input').onchange = function() {
+  UNITS_TO_BE_SUBSTITUTED = document.getElementById('units_input').value;
   if (FTBSI > 0 && SFI > 0 && AMOUNT_TO_BE_SUBSTITUTED > 0) {
     calculate();
   }
 }
 
 
-document.getElementById('food_to_be_substituted_input').onkeyup = function () {
-  dataToDataList(search(document.getElementById('food_to_be_substituted_input').value, data), 'food_to_be_substituted_input_autocomplete_list');
+document.getElementById('initial_input').onkeyup = function () {
+  dataToDataList(search(document.getElementById('initial_input').value, data), 'initial_list');
 };
 
-document.getElementById('substitute_food_input').onkeyup = function() {
-  dataToDataList(search(document.getElementById('substitute_food_input').value, data2), 'substitute_food_input_autocomplete_list');
+document.getElementById('substitute_input').onkeyup = function() {
+  dataToDataList(search(document.getElementById('substitute_input').value, data2), 'substitute_list');
 };
 
-document.getElementById('food_to_be_substituted_input').onfocus = function() {
-  document.getElementById('food_to_be_substituted_input_autocomplete_list').style.display='block';
+document.getElementById('initial_input').onfocus = function() {
+  document.getElementById('initial_list').style.display='block';
+  document.getElementById('substitute_list').style.display='none';
 };
 
-document.getElementById('substitute_food_input').onfocus = function() {
-  document.getElementById('substitute_food_input_autocomplete_list').style.display='block';
+document.getElementById('substitute_input').onfocus = function() {
+  document.getElementById('substitute_list').style.display='block';
+  document.getElementById('initial_list').style.display='none';
 };
 
-document.getElementById('calculator_reset_button').onclick = function() {
-  document.getElementById('amount_to_be_substituted_input').value = '';
-  document.getElementById('food_to_be_substituted_input').value = '';
-  document.getElementById('substitute_food_input').value = '';
-  document.getElementById('substitute_food_weight_output').innerText = '';
-  document.getElementById('substitute_food_weight_output_div').className = 'dontshow';
-  document.getElementById('calculator_reset_button').className = 'resetdontshow';
+document.getElementById('amount_input').onfocus = function() {
+  document.getElementById('substitute_list').style.display='none';
+  document.getElementById('initial_list').style.display='none';
+};
+
+document.getElementById('units_input').onfocus = function() {
+  document.getElementById('substitute_list').style.display='none';
+  document.getElementById('initial_list').style.display='none';
+};
+
+document.getElementById('reset_button').onclick = function() {
+  document.getElementById('amount_input').value = '';
+  document.getElementById('initial_input').value = '';
+  document.getElementById('substitute_input').value = '';
+  document.getElementById('output').innerText = '';
+  document.getElementById('output_div').className = 'dontshow';
+  document.getElementById('reset_button').className = 'resetdontshow';
   FTBSI = 0;
   SFI = 0;
   AMOUNT_TO_BE_SUBSTITUTED = 0;
-  var dataList = document.getElementById('substitute_food_input_autocomplete_list');
+  data2 = [];
+  var dataList = document.getElementById('substitute_list');
   while (dataList.firstChild) {
     dataList.removeChild(dataList.firstChild);
   }

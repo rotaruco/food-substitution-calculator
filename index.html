@@ -29,65 +29,65 @@
 </head>
 <body>
   <div id="calculator_container">
-    <div class="f9cnqx3j4r4398">
-      <span class="center"><center>Food Substitution Calculator</center></span>
+    <div class="section">
+      <center><span id="title">Food Substitution Calculator</span></center>
     </div>
-    <div class="f9cnqx3j4r4398">
+    <div class="section">
       <span class="left">
-        <label for="food_to_be_substituted_input">Food To Substitute</label>
+        <label for="initial_input">Food To Substitute</label>
       </span>
       <span class="right">
         <div class="dropdown">
-          <input type="text" class="dropbtn" required id="food_to_be_substituted_input" name="food_to_be_substituted_input">
-          <ul class="dropdown-content" id="food_to_be_substituted_input_autocomplete_list">
+          <input type="text" class="dropbtn" required id="initial_input" name="initial_input">
+          <ul class="dropdown-content" id="initial_list">
           </ul>
         </div>
       </span>
     </div>
-    <div class="f9cnqx3j4r4398">
+    <div class="section">
       <span class="left">
-        <label for="amount_to_be_substituted_input">Food Weight</label>
+        <label for="amount_input">Food Weight</label>
       </span>
       <span class="right">
-        <input type="number" required step="1" min="0" pattern="^[1-9]\d*$" id="amount_to_be_substituted_input" name="amount_to_be_substituted_input">
+        <input type="number" required step="1" min="0" pattern="^[1-9]\d*$" id="amount_input" name="amount_input">
       </span>
     </div>
-    <div class="f9cnqx3j4r4398">
+    <div class="section">
       <span class="left">
-        <label for="units_to_be_substituted_input">Weight Units</label>
+        <label for="units_input">Weight Units</label>
       </span>
       <span class="right">
-        <select required id="units_to_be_substituted_input">
+        <select required id="units_input">
           <option value="Grams">Grams</option>
           <option value="Ounces">Ounces</option>
         </select>
       </span>
     </div>
-    <div class="f9cnqx3j4r4398">
+    <div class="section">
       <span class="left">
-        <label for="substitute_food_input">Substitution Food</label>
+        <label for="substitute_input">Substitution Food</label>
       </span>
       <span class="right">
         <div class="dropdown">
-          <input type="text" required id="substitute_food_input" name="substitute_food_input">
-          <ul class="dropdown-content" id="substitute_food_input_autocomplete_list">
+          <input type="text" required id="substitute_input" name="substitute_input">
+          <ul class="dropdown-content" id="substitute_list">
           </ul>
         </div>
       </span>
     </div>
-    <div class="f9cnqx3j4r4398">
-      <div id="substitute_food_weight_output_div" class="dontshow">
+    <div class="section">
+      <div id="output_div" class="dontshow">
         <center>
-          <span id="substitute_food_weight_output"></span>
+          <span id="output"></span>
         </center>
       </div>
     </div>
-    <div class="f9cnqx3j4r4398">
+    <div class="section">
       <span class="left">
         <a href="https://www.absolutecoaching.ca/"><img id="absolute_coachin_logo" src="Absolute Coaching.jpg" /></a>
       </span>
       <span class="right" id="logo_container">
-        <input type="submit" value="Reset" id="calculator_reset_button" class="resetdontshow" name="calculator_reset_button">
+        <input type="submit" value="Reset" id="reset_button" class="resetdontshow" name="reset_button">
       </span>
     </div>
   </div>

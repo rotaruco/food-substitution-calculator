@@ -1,20 +1,16 @@
 * {
   font-family: 'Roboto', Arial, Helvetica, sans-serif;
   font-size: 18px;
-  color: white;
+}
+
+*:focus {
+  outline: none;
 }
 
 input, select {
   color: #0068a1;
+  border-radius: 2px;
   border-style: none;
-}
-
-#food_to_be_substituted_input{  width: 300px;}
-
-#substitute_food_input{  width: 300px;}
-
-*:focus {
-  outline: none;
 }
 
 a {
@@ -22,7 +18,11 @@ a {
   height: 100%;
 }
 
-.f9cnqx3j4r4398 {
+label {
+  color: white;
+}
+
+.section {
   height: 80px;
   vertical-align: middle;
 }
@@ -65,6 +65,35 @@ a {
     display: block;
 }
 
+.dontshow {
+  max-height: 0;
+  opacity: 0;
+  -webkit-transition: all 0.8s ease;
+  -moz-transition: all 0.8s ease;
+  -o-transition: all 0.8s ease;
+  -ms-transition: all 0.8s ease;
+  transition: all 0.8s ease;
+}
+
+.show {
+  padding: 10px 10px;
+  opacity: 1;
+  max-height: 60px;
+}
+
+.resetdontshow {
+  opacity: 0;
+  -webkit-transition: opacity 0.8s ease;
+  -moz-transition: opacity 0.8s ease;
+  -o-transition: opacity 0.8s ease;
+  -ms-transition: opacity 0.8s ease;
+  transition: opacity 0.8s ease;
+}
+
+.resetshow {
+  opacity: 1;
+}
+
 #calculator_container {
   height: auto;
   min-height: 500px;
@@ -74,26 +103,40 @@ a {
   background: -o-linear-gradient(right bottom, #0068a1 50%, #a1dc51 50%); /* For Opera 11.1 to 12.0 */
   background: -moz-linear-gradient(right bottom, #0068a1 50%, #a1dc51 50%); /* For Firefox 3.6 to 15 */
   background: linear-gradient(to right bottom, #0068a1 50%, #a1dc51 50%);
-  border-radius: 4px;
+  border-radius: 3px;
   border-style: none;
   padding: 20px;
 }
 
-.center {
+#title {
   font-weight: 700;
-  font-size: 26px;
+  font-size: 30px;
   color: white;
   text-align: center;
 }
 
-#calculator_reset_button {
+#initial_input{  width: 300px;}
+
+#substitute_input{  width: 300px;}
+
+#output_div {
+  background-color: white;
+	overflow: hidden;
+  border-radius: 3px;
+}
+
+#output {
+color: #f58d1e;
+}
+
+#reset_button {
   height: 60px;
   width: 200px;
   color: white;
   background-color: #f58d1e;
   border-color: #f58d1e;
   border-style: solid;
-  border-radius: 4px;
+  border-radius: 3px;
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
@@ -101,7 +144,7 @@ a {
   font-weight: 700;
 }
 
-#calculator_reset_button:hover {
+#reset_button:hover {
   color: #f58d1e;
   background-color: white;
 }
@@ -114,49 +157,6 @@ a {
 
 #absolute_coachin_logo {
   height: 60px;
-  border-radius: 4px;
+  border-radius: 3px;
   border-style: none;
-}
-
-#substitute_food_weight_output_div {
-  background-color: white;
-	overflow: hidden;
-}
-
-.dontshow {
-  max-height: 0;
-  -webkit-transition: max-height 0.6s linear;
-  -moz-transition: max-height 0.6s linear;
-  -o-transition: max-height 0.6s linear;
-  -ms-transition: max-height 0.6s linear;
-  transition: max-height 0.6s linear;
-  opacity: 0;
-  -webkit-transition: opacity 0.6s linear;
-  -moz-transition: opacity 0.6s linear;
-  -o-transition: opacity 0.6s linear;
-  -ms-transition: opacity 0.6s linear;
-  transition: opacity 0.6s linear;
-}
-
-.show {
-  padding: 10px 10px;
-  opacity: 1;
-  max-height: 60px;
-}
-
-.resetdontshow {
-  opacity: 0;
-  -webkit-transition: opacity 0.6s linear;
-  -moz-transition: opacity 0.6s linear;
-  -o-transition: opacity 0.6s linear;
-  -ms-transition: opacity 0.6s linear;
-  transition: opacity 0.6s linear;
-}
-
-.resetshow {
-  opacity: 1;
-}
-
-#substitute_food_weight_output {
-color: #f58d1e;
 }

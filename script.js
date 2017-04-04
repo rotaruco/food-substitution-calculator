@@ -10,8 +10,8 @@ OZ = 'oz';
 G = 'g';
 
 CALORIES_PER_GRAM = {
-  food_to_be_substituted_input: 0,
-  substitute_food_input: 0,
+  initial_input: 0,
+  substitute_input: 0,
 };
 
 function nutritionApiUrlBuilder(ndbno) {
@@ -67,10 +67,10 @@ function JSONGetRequest(url, requestListener) {
 }
 
 function calculate() {
-  var amountToBeSubstituted = document.getElementById('amount_to_be_substituted_input').value;
-  var unitsToBeSubstituted = document.getElementById('units_to_be_substituted_input').value;
-  var calsPerGram1 = CALORIES_PER_GRAM['food_to_be_substituted_input'];
-  var calsPerGram2 = CALORIES_PER_GRAM['substitute_food_input'];
+  var amountToBeSubstituted = document.getElementById('amount_input').value;
+  var unitsToBeSubstituted = document.getElementById('units_input').value;
+  var calsPerGram1 = CALORIES_PER_GRAM['initial_input'];
+  var calsPerGram2 = CALORIES_PER_GRAM['substitute_input'];
 
   if (unitsToBeSubstituted === 'Ounces') {
     var foodInGrams1 = parseInt(amountToBeSubstituted) * GRAMS_IN_OUNCES;
@@ -95,22 +95,22 @@ function calculate() {
   console.log('cal/g of first food: ', calsPerGram1)
   console.log('cal/g of second food: ', calsPerGram2)
   console.log('result: ', result);
-  document.getElementById('substitute_food_weight_output').value = result;
+  document.getElementById('output').value = result;
 }
 
 
-document.getElementById('food_to_be_substituted_input').oninput = function () {
-  JSONGetRequest(searchApiUrlBuilder(document.getElementById('food_to_be_substituted_input').value),
+document.getElementById('initial_input').oninput = function () {
+  JSONGetRequest(searchApiUrlBuilder(document.getElementById('initial_input').value),
     function(e) {
-      searchApiRequestListener(e, 'food_to_be_substituted_input', 'food_to_be_substituted_input_autocomplete_list');
+      searchApiRequestListener(e, 'initial_input', 'initial_list');
     }
   );
 };
 
-document.getElementById('substitute_food_input').oninput = function () {
-  JSONGetRequest(searchApiUrlBuilder(document.getElementById('substitute_food_input').value),
+document.getElementById('substitute_input').oninput = function () {
+  JSONGetRequest(searchApiUrlBuilder(document.getElementById('substitute_input').value),
     function(e) {
-      searchApiRequestListener(e, 'substitute_food_input', 'substitute_food_input_autocomplete_list');
+      searchApiRequestListener(e, 'substitute_input', 'substitute_list');
     }
   );
 };
