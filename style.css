@@ -86,7 +86,7 @@ a {
   text-align: center;
 }
 
-#calculator_submit_button {
+#calculator_reset_button {
   height: 60px;
   width: 200px;
   color: white;
@@ -101,7 +101,7 @@ a {
   font-weight: 700;
 }
 
-#calculator_submit_button:hover {
+#calculator_reset_button:hover {
   color: #f58d1e;
   background-color: white;
 }
@@ -135,6 +135,19 @@ a {
 .show {
   padding: 10px 10px;
   max-height: 60px;
+}
+
+.resetdontshow {
+  opacity: 0;
+  -webkit-transition: opacity 0.6s linear;
+  -moz-transition: opacity 0.6s linear;
+  -o-transition: opacity 0.6s linear;
+  -ms-transition: opacity 0.6s linear;
+  transition: opacity 0.6s linear;
+}
+
+.resetshow {
+  opacity: 1;
 }
 
 #substitute_food_weight_output {

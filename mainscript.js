@@ -5,37 +5,33 @@ G = 'g';
 data = [];
 data2 = [];
 
-CALORIES_PER_GRAM = {
-  food_to_be_substituted_input: 0,
-  substitute_food_input: 0,
-};
+AMOUNT_TO_BE_SUBSTITUTED = 0;
+UNITS_TO_BE_SUBSTITUTED = 'Grams';
+FTBSI = 0;
+SFI = 0;
 
 function calculate() {
-  var amountToBeSubstituted = parseInt(document.getElementById('amount_to_be_substituted_input').value);
-  var unitsToBeSubstituted = document.getElementById('units_to_be_substituted_input').value;
-  var calsPerGram1 = CALORIES_PER_GRAM['food_to_be_substituted_input'];
-  var calsPerGram2 = CALORIES_PER_GRAM['substitute_food_input'];
-
-  if (unitsToBeSubstituted === 'Ounces') {
-    var foodInGrams1 = amountToBeSubstituted * GRAMS_IN_OUNCES;
-    var calsToReplace = foodInGrams1 * calsPerGram1;
-    var foodInGrams2 = calsToReplace / calsPerGram2;
+  if (UNITS_TO_BE_SUBSTITUTED === 'Ounces') {
+    var foodInGrams1 = AMOUNT_TO_BE_SUBSTITUTED * GRAMS_IN_OUNCES;
+    var calsToReplace = foodInGrams1 * FTBSI;
+    var foodInGrams2 = calsToReplace / SFI;
     var foodInOunces2 = foodInGrams2 / GRAMS_IN_OUNCES;
     result = String(Math.round(foodInOunces2)) + OZ + OUTPUT_MESSAGE;
   } else {
-    var foodInGrams1 = amountToBeSubstituted;
-    var calsToReplace = foodInGrams1 * calsPerGram1;
-    var foodInGrams2 = calsToReplace / calsPerGram2;
+    var foodInGrams1 = AMOUNT_TO_BE_SUBSTITUTED;
+    var calsToReplace = foodInGrams1 * FTBSI;
+    var foodInGrams2 = calsToReplace / SFI;
     result = String(Math.round(foodInGrams2)) + G + OUTPUT_MESSAGE;
   }
-  if (amountToBeSubstituted <= 0 || isNaN(amountToBeSubstituted) ) {
+  if (AMOUNT_TO_BE_SUBSTITUTED <= 0 || isNaN(AMOUNT_TO_BE_SUBSTITUTED)) {
     result = "Please input a food amount";
   }
-  if (calsPerGram1 <= 0 || calsPerGram2 <= 0) {
+  if (FTBSI <= 0 || SFI <= 0) {
     result = "Please select foods from the dropdown menu";
   }
   document.getElementById('substitute_food_weight_output').innerText = result;
   document.getElementById('substitute_food_weight_output_div').className += ' show';
+  document.getElementById('calculator_reset_button').className =+ ' resetshow';
 }
 
 function search(string, data) {
@@ -68,7 +64,7 @@ function setFoodToBeSubstituted() {
   var value = document.getElementById('food_to_be_substituted_input').value;
   for (var i = 0; i < data.length; i++) {
     if(data[i].Name === value){
-      CALORIES_PER_GRAM['food_to_be_substituted_input'] = data[i]['Calories per gram'];
+      FTBSI = data[i]['Calories per gram'];
       var ppg = data[i]['Protein per gram'];
       var cpg = data[i]['Carbs per gram'];
       var fpg = data[i]['Fat per gram'];
@@ -99,7 +95,7 @@ function setSubstituteFood(){
   var value = document.getElementById('substitute_food_input').value;
   for (var i = 0; i < data.length; i++) {
     if (data[i]['Name'] == value) {
-      CALORIES_PER_GRAM['substitute_food_input'] = data[i]['Calories per gram'];
+      SFI = data[i]['Calories per gram'];
     }
   }
 }
@@ -126,6 +122,9 @@ firstul.addEventListener('click', function(e) {
     document.getElementById('food_to_be_substituted_input_autocomplete_list').style.display='none';
     document.getElementById('food_to_be_substituted_input').value = target.id;
     setFoodToBeSubstituted();
+    if (SFI > 0 && AMOUNT_TO_BE_SUBSTITUTED > 0 ) {
+      calculate();
+    }
   }
 });
 
@@ -141,14 +140,32 @@ secondul.addEventListener('click', function(e) {
     document.getElementById('substitute_food_input_autocomplete_list').style.display='none';
     document.getElementById('substitute_food_input').value = target.id;
     setSubstituteFood();
+    if (FTBSI > 0 && AMOUNT_TO_BE_SUBSTITUTED > 0 ) {
+      calculate();
+    }
   }
 });
+
+document.getElementById('amount_to_be_substituted_input').onkeyup = function() {
+  AMOUNT_TO_BE_SUBSTITUTED = parseInt(document.getElementById('amount_to_be_substituted_input').value);
+  if (FTBSI > 0 && SFI > 0 ) {
+    calculate();
+  }
+}
+
+document.getElementById('units_to_be_substituted_input').onchange = function() {
+  UNITS_TO_BE_SUBSTITUTED = document.getElementById('units_to_be_substituted_input').value;
+  if (FTBSI > 0 && SFI > 0 && AMOUNT_TO_BE_SUBSTITUTED > 0) {
+    calculate();
+  }
+}
+
 
 document.getElementById('food_to_be_substituted_input').onkeyup = function () {
   dataToDataList(search(document.getElementById('food_to_be_substituted_input').value, data), 'food_to_be_substituted_input_autocomplete_list');
 };
 
-document.getElementById('substitute_food_input').onkeyup = function () {
+document.getElementById('substitute_food_input').onkeyup = function() {
   dataToDataList(search(document.getElementById('substitute_food_input').value, data2), 'substitute_food_input_autocomplete_list');
 };
 
@@ -160,6 +177,14 @@ document.getElementById('substitute_food_input').onfocus = function() {
   document.getElementById('substitute_food_input_autocomplete_list').style.display='block';
 };
 
-document.getElementById('calculator_submit_button').onclick = function() {
-  calculate();
+document.getElementById('calculator_reset_button').onclick = function() {
+  document.getElementById('amount_to_be_substituted_input').value = '';
+  document.getElementById('food_to_be_substituted_input').value = '';
+  document.getElementById('substitute_food_input').value = '';
+  document.getElementById('substitute_food_weight_output').innerText = '';
+  document.getElementById('substitute_food_weight_output_div').className = 'dontshow';
+  document.getElementById('calculator_reset_button').className = 'resetdontshow';
+  FTBSI = 0;
+  SFI = 0;
+  AMOUNT_TO_BE_SUBSTITUTED = 0;
 }
