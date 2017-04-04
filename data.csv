@@ -1,1 +1,686 @@
-Name,Fat per gram,Protein per gram,Carbs per gram,Calories per gram,Category"Cheese, brick",0.296818182,0.232424242,0.027878788,3.712121212,Dairy"Cheese, brie",0.276895944,0.207407407,0.004585538,3.350970018,Dairy"Cheese, camembert",0.242680776,0.197883598,0.004585538,2.998236332,Dairy"Cheese, caraway",0.292063492,0.251851852,0.030687831,3.774250441,Dairy"Cheese, cheddar",0.333106061,0.228712121,0.030909091,4.037878788,Dairy"Cheese, cheddar, nonfat or fat free",0,0.321428571,0.071428571,1.571428571,Dairy"Cheese, cheddar, sharp, sliced",0.338421053,0.242631579,0.021052632,4.105263158,Dairy"Cheese, colby",0.321136364,0.237575758,0.025681818,3.939393939,Dairy"Cheese, cottage, creamed, large or small curd",0.04300885,0.111238938,0.03380531,0.982300885,Dairy"Cheese, cottage, lowfat, 1% milkfat",0.010176991,0.123893805,0.027168142,0.716814159,Dairy"Cheese, cottage, lowfat, 2% milkfat",0.022743363,0.104513274,0.047610619,0.814159292,Dairy"Cheese, cottage, nonfat, uncreamed, dry, large or small curd",0.002896552,0.10337931,0.06662069,0.717241379,Dairy"Cheese, cream",0.344137931,0.06137931,0.055172414,3.517241379,Dairy"Cheese, edam",0.277954145,0.24973545,0.014462081,3.562610229,Dairy"Cheese, feta",0.2128,0.142133333,0.040866667,2.64,Dairy"Cheese, fontina",0.311363636,0.255984848,0.015530303,3.886363636,Dairy"Cheese, gouda",0.274426808,0.249382716,0.022222222,3.562610229,Dairy"Cheese, gruyere",0.32345679,0.298059965,0.003527337,4.126984127,Dairy"Cheese, limburger",0.272537313,0.200522388,0.004925373,3.268656716,Dairy"Cheese, mexican, queso cotija",0.3,0.2,0.04,3.6,Dairy"Cheese, monterey",0.30280303,0.244772727,0.006818182,3.727272727,Dairy"Cheese, mozzarella, part skim milk",0.159082892,0.242680776,0.027865961,2.53968254,Dairy"Cheese, mozzarella, whole milk",0.223482143,0.221696429,0.021875,3,Dairy"Cheese, muenster",0.300378788,0.234090909,0.011212121,3.681818182,Dairy"Cheese, neufchatel",0.227865961,0.091358025,0.035978836,2.53968254,Dairy"Cheese, parmesan, grated",0.2784,0.2842,0.1391,4.2,Dairy"Cheese, parmesan, hard",0.258201058,0.357671958,0.032098765,3.915343915,Dairy"Cheese, port de salut",0.281969697,0.23780303,0.005681818,3.522727273,Dairy"Cheese, provolone",0.266212121,0.255833333,0.021363636,3.507575758,Dairy"Cheese, ricotta, part skim milk",0.079112903,0.113870968,0.051370968,1.379032258,Dairy"Cheese, ricotta, whole milk",0.12983871,0.112580645,0.030403226,1.741935484,Dairy"Cheese, romano",0.269488536,0.318165785,0.03633157,3.880070547,Dairy"Cheese, roquefort",0.306525573,0.215520282,0.02010582,3.703703704,Dairy"Cheese, swiss",0.309924242,0.269621212,0.014393939,3.931818182,Dairy"Cheese, Swiss, nonfat or fat free",0,0.283928571,0.033928571,1.285714286,DairyEggnog,0.041889764,0.045511811,0.080511811,0.881889764,DairyGreek Yogurt 0%,0,0.102857,0.05714,1.59,DairyYogurt plain,0.10358,0.07968,0.3984,1.414,Dairy"Apples, raw, with skin",0.00168,0.00264,0.13808,0.52,Fruits"Apricots, raw",0.003870968,0.014,0.111225806,0.477419355,Fruits"Bananas, dehydrated, or banana powder",0.0181,0.0389,0.8828,3.46,Fruits"Bananas, raw",0.003288889,0.010888889,0.2284,0.888888889,Fruits"Blackberries, raw",0.004930556,0.013888889,0.096111111,0.430555556,Fruits"Blueberries, raw",0.003310811,0.007432432,0.144932432,0.567567568,Fruits"Cherries, sour, red, raw",0.003032258,0.01,0.121806452,0.503225806,Fruits"Cherries, sweet, raw",0.002028986,0.01057971,0.160072464,0.630434783,Fruits"Cranberries, dried, sweetened",0.011,0.00175,0.828,3.075,Fruits"Dates, deglet noor",0.003877551,0.024489796,0.750272109,2.823129252,Fruits"Elderberries, raw",0.004965517,0.00662069,0.184,0.731034483,Fruits"Figs, raw",0.00296875,0.0075,0.191875,0.734375,Fruits"Goji berries, dried",0.003928571,0.1425,0.770714286,3.5,Fruits"Grapefruit, raw, pink and red and white, all areas",0.001,0.006304348,0.080782609,0.32173913,Fruits"Grapes, muscadine, raw",0.005,0.008333333,0.14,0.5,Fruits"Grapes, red or green (European type, such as Thompson seedless), raw",0.001589404,0.007218543,0.180993377,0.688741722,Fruits"Mangos, raw",0.003818182,0.008181818,0.149818182,0.6,Fruits"Melons, cantaloupe, raw",0.001920904,0.008418079,0.081581921,0.338983051,Fruits"Nectarines, raw",0.003216783,0.010629371,0.105524476,0.440559441,Fruits"Oranges, raw, all commercial varieties",0.001222222,0.009388889,0.1175,0.472222222,Fruits"Peaches, yellow, raw",0.002532468,0.009090909,0.09538961,0.38961039,Fruits"Pears, raw",0.001428571,0.003571429,0.152285714,0.571428571,Fruits"Pineapple, raw, all varieties",0.001212121,0.005393939,0.131212121,0.496969697,Fruits"Plums, raw",0.002787879,0.006969697,0.114181818,0.460606061,Fruits"Raspberries, raw",0.006504065,0.01203252,0.119430894,0.520325203,Fruits"Strawberries, raw",0.003026316,0.006710526,0.076776316,0.322368421,Fruits"Tangerines, (mandarin oranges), raw",0.003076923,0.008102564,0.133384615,0.528205128,Fruits"Beef, loin, top loin steak, boneless",0.111529412,0.285647059,0,2.235294118,Meat"Bison, ground, grass-fed, cooked",0.086235294,0.254470588,0,1.788235294,Meat"Chicken breast, oven-roasted, fat-free, sliced",0.003809524,0.167857143,0.021666667,0.785714286,MeatChicken thighs,0.077307692,0.242307692,0,1.638461538,Meat"Chicken, breast",0.045071429,0.309071429,0,1.728571429,Meat"Chicken, ground, lean",0.05993,0.17979,,1.2799,Meat"Ham, honey, smoked, cooked",0.023636364,0.179272727,0.072727273,1.218181818,Meat"Pork Sausage, Italian, sweet, links",0.084166667,0.161309524,0.020952381,1.488095238,Meat"Pork sausage, link/patty",0.372608696,0.134782609,0.006956522,3.913043478,Meat"Pork, bacon,  cooked",0.995058824,0.000705882,0,8.976470588,Meat"Pork, cured, bacon, pre-sliced, cooked, pan-fried",0.351304348,0.339130435,0.017391304,4.695652174,Meat"Pork, cured, ham",0.082892416,0.22292769,0.003174603,1.728395062,Meat"Pork, fresh, loin, sirloin (chops), boneless",0.055294118,0.281882353,0,1.694117647,Meat"Pork, fresh, loin, tenderloin",0.037058824,0.214941176,0.003058824,1.211764706,Meat"Pork, ground, 96% lean ",0.062,0.316941176,0.005647059,1.847058824,MeatTurkey bacon ,0.169285714,0.159285714,0.018571429,2.285714286,Meat"Turkey ham, sliced, extra lean, prepackaged or deli-sliced",0.037971014,0.196014493,0.029275362,1.239130435,Meat"Turkey,  light meat",0.020823529,0.301294118,0,1.470588235,Meat"Turkey, ground 97% lean",0.03116,0.23217,,1.21,Meat"Turkey, white, rotisserie, deli cut",0.03,0.135,0.077083333,1.125,Meat"almond butter, plain",0.555,0.209375,0.188125,6.125,Nutsalmonds,0.499300699,0.211468531,0.215524476,5.79020979,Nuts"Nuts, almonds, dry roasted, with salt added",0.525434783,0.209565217,0.210072464,5.97826087,Nuts"Nuts, almonds, honey roasted, unblanched",0.499027778,0.181666667,0.279027778,5.9375,Nuts"Nuts, almonds, oil roasted, lightly salted",0.551719745,0.212292994,0.176815287,6.070063694,Nuts"Nuts, almonds, oil roasted, with salt added, smoke flavor",0.558928571,0.214285714,0.178571429,6.071428571,Nuts"Nuts, beechnuts, dried",0.500176367,0.062081129,0.335097002,5.749559083,Nuts"Nuts, brazilnuts, dried, unblanched",0.670977444,0.143233083,0.117368421,6.586466165,Nuts"Nuts, butternuts, dried",0.569833333,0.249,0.1205,6.116666667,Nuts"Nuts, cashew butter, plain, with salt added",0.53,0.12125,0.303125,6.0625,Nuts"Nuts, cashew butter, plain, without salt added",0.494375,0.175625,0.275625,5.875,Nuts"Nuts, cashew nuts, dry roasted, with salt added",0.46350365,0.153065693,0.326934307,5.737226277,Nuts"Nuts, cashew nuts, oil roasted, with salt added",0.477674419,0.168372093,0.301627907,5.80620155,Nuts"Nuts, cashew nuts, oil roasted, without salt added",0.477674419,0.168372093,0.298682171,5.798449612,Nuts"Nuts, cashew nuts, raw",0.438447972,0.182363316,0.301940035,5.537918871,Nuts"Nuts, chestnuts, chinese, raw",0.010934744,0.041975309,0.490652557,2.257495591,Nuts"Nuts, chestnuts, european, raw, unpeeled",0.02262069,0.024206897,0.45537931,2.131034483,Nuts"Nuts, chestnuts, european, roasted",0.022027972,0.031678322,0.52958042,2.447552448,Nuts"Nuts, chestnuts, japanese, dried",0.012387097,0.052516129,0.814322581,3.6,Nuts"Nuts, chestnuts, japanese, raw",0.005291005,0.022574956,0.349206349,1.552028219,Nuts"Nuts, coconut cream, canned, sweetened",0.163157895,0.011578947,0.532105263,3.578947368,Nuts"Nuts, coconut meat, dried (desiccated), creamed",0.690652557,0.052910053,0.215167549,6.84303351,Nuts"Nuts, coconut meat, dried (desiccated), not sweetened",0.645149912,0.068783069,0.23633157,6.596119929,Nuts"Nuts, coconut meat, dried (desiccated), sweetened, shredded",0.354946237,0.028817204,0.476666667,5.010752688,Nuts"Nuts, coconut meat, raw",0.334875,0.03325,0.15225,3.5375,Nuts"Nuts, coconut milk, canned (liquid expressed from grated meat and water)",0.213318584,0.020221239,0.028097345,1.969026549,Nuts"Nuts, coconut milk, frozen (liquid expressed from grated meat and water)",0.208,0.016083333,0.055791667,2.020833333,Nuts"Nuts, coconut milk, raw (liquid expressed from grated meat and water)",0.238416667,0.022916667,0.055416667,2.3,Nuts"Nuts, coconut water (liquid from coconuts)",0.002,0.007208333,0.037083333,0.191666667,Nuts"Nuts, formulated, wheat-based, all flavors except macadamia, without salt",0.62292769,0.131216931,0.207760141,6.455026455,Nuts"Nuts, ginkgo nuts, canned",0.016193548,0.022903226,0.221032258,1.109677419,Nuts"Nuts, ginkgo nuts, dried",0.02010582,0.10335097,0.724514991,3.492063492,Nuts"Nuts, ginkgo nuts, raw",0.016931217,0.04303351,0.376014109,1.834215168,Nuts"Nuts, hazelnuts or filberts",0.607478261,0.149478261,0.166956522,6.27826087,Nuts"Nuts, hickorynuts, dried",0.643666667,0.127166667,0.1825,6.566666667,Nuts"Nuts, macadamia nuts, dry roasted, with salt added",0.760833333,0.077878788,0.128333333,7.159090909,Nuts"Nuts, macadamia nuts, dry roasted, without salt added",0.760833333,0.077878788,0.133787879,7.181818182,Nuts"Nuts, macadamia nuts, raw",0.757686567,0.079104478,0.138208955,7.179104478,Nuts"Nuts, mixed nuts, dry roasted, with peanuts, salt added, CHOSEN ROASTER",0.588030303,0.18,0.190227273,6.318181818,Nuts"Nuts, mixed nuts, dry roasted, with peanuts, salt added, PLANTERS pistachio blend",0.492993197,0.21952381,0.225102041,5.802721088,Nuts"Nuts, mixed nuts, dry roasted, with peanuts, with salt added",0.514525547,0.172992701,0.25350365,5.941605839,Nuts"Nuts, mixed nuts, dry roasted, with peanuts, without salt added",0.534961832,0.195038168,0.224198473,6.06870229,Nuts"Nuts, mixed nuts, oil roasted, with peanuts, lightly salted",0.539329806,0.200352734,0.210582011,6.0670194,Nuts"Nuts, mixed nuts, oil roasted, with peanuts, with salt added",0.539477612,0.200373134,0.210522388,6.067164179,Nuts"Nuts, pecans",0.719724771,0.091743119,0.138623853,6.908256881,Nuts"Nuts, pecans, dry roasted, with salt added",0.742857143,0.094885362,0.135449735,7.08994709,Nuts"Nuts, pecans, oil roasted, with salt added",0.752272727,0.092,0.130090909,7.145454545,Nuts"Nuts, pine nuts, dried",0.683703704,0.136888889,0.130814815,6.733333333,Nuts"Nuts, pine nuts, pinyon, dried",0.609876543,0.115696649,0.192945326,6.278659612,Nuts"Nuts, pistachio nuts, dry roasted",0.458211382,0.210487805,0.275528455,5.691056911,Nuts"Nuts, pistachio nuts, dry roasted, without salt added",0.458211382,0.210487805,0.282764228,5.723577236,Nuts"Nuts, pistachio nuts, raw",0.453170732,0.201626016,0.271707317,5.601626016,Nuts"Nuts, walnuts, black, dried",0.59328,0.24056,0.09576,6.192,Nuts"Nuts, walnuts, dry roasted, with salt added",0.607142857,0.142857143,0.178571429,6.428571429,Nuts"Nuts, walnuts, english",0.652136752,0.152307692,0.137094017,6.538461538,Nuts"Nuts, walnuts, glazed",0.357142857,0.082857143,0.476071429,5,NutsPeanut Butter plain,0.4667,0.2667,0.2,6,Nuts"Seeds, flaxseed",0.421359223,0.182524272,0.288349515,5.339805825,Nuts"Seeds, pumpkin and squash seed kernels, roasted, with salt added",0.490508475,0.298389831,0.147118644,5.737288136,Nuts"Seeds, pumpkin and squash seeds, whole, roasted",0.1940625,0.18546875,0.5375,4.453125,Nuts"Seeds, sesame butter, paste",0.50875,0.180625,0.240625,5.875,Nuts"Seeds, sesame butter, tahini",0.53,0.174,0.215333333,5.933333333,Nuts"Seeds, sesame butter, tahini, from raw and stone ground kernels",0.48,0.178,0.262,5.733333333,Nuts"Seeds, sesame butter, tahini, from roasted and toasted kernels (most common type)",0.537333333,0.17,0.212,5.933333333,Nuts"Seeds, sesame butter, tahini, from unroasted kernels (non-chemically removed seed coat)",0.564285714,0.179285714,0.178571429,6.071428571,Nuts"Seeds, sesame flour, high-fat",0.371075838,0.307936508,0.266313933,5.255731922,Nuts"Seeds, sesame seed kernels, dried (decorticated)",0.612066667,0.204533333,0.117266667,6.306666667,Nuts"Seeds, sesame seed kernels, toasted, with salt added (decorticated)",0.48,0.169609375,0.260390625,5.671875,Nuts"Seeds, sunflower seed kernels from shell, dry roasted, with salt added",0.49796875,0.19328125,0.153125,5.4609375,Nuts"Seeds, watermelon seed kernels, dried",0.473703704,0.283333333,0.153055556,5.574074074,Nuts"Butter, salted",0.812,0.008,0,7.2,Oils"Fish oil, cod liver",1,0,0,9.111111111,oils"Fish oil, herring",1,0,0,9.044117647,oils"Margarine-like, margarine-butter blend, soybean oil and butter",0.803546099,0.002836879,0.007801418,7.304964539,oils"Oil, avocado",1,0,0,8.857142857,oils"Oil, coconut",0.990441176,0,0,8.897058824,oils"Oil, corn, industrial and retail, all purpose salad or cooking",1,0,0,8.970588235,oils"Oil, flaxseed, contains added sliced flaxseed",0.989781022,0.003649635,0.003649635,8.759124088,oils"Oil, olive, salad or cooking",1,0,0,8.814814815,oils"Oil, PAM cooking spray, original",0.8,0,0.2,6.666666667,oils"Vegetable oil, palm kernel",1,0,0,8.602941176,oilsClams,0.019529412,0.255529412,0.051294118,1.482352941,Seafood"Crab, Alaska",0.015373134,0.193507463,0,0.970149254,Seafood"Crab, queen",0.015058824,0.237176471,0,1.152941176,Seafood"Fish, bass, striped",0.029919355,0.22733871,0,1.241935484,Seafood"Fish, catfish, channel, farmed",0.071888112,0.184405594,0,1.440559441,Seafood"Fish, cod, Pacific",0.005,0.187333333,0,0.844444444,Seafood"Fish, cod, Pacific, cooked (not previously frozen)",0.002470588,0.204235294,0,0.835294118,Seafood"Fish, haddock",0.005466667,0.199866667,0,0.9,Seafood"Fish, halibut",0.177411765,0.184235294,0,2.388235294,Seafood"Fish, halibut, Atlantic and Pacific",0.016117647,0.225411765,0,1.105882353,Seafood"Fish, herring, Pacific",0.177916667,0.210069444,0,2.5,Seafood"Fish, mackerel, king",0.025647059,0.26,0,1.341176471,Seafood"Fish, mahimahi",0.009058824,0.237176471,0,1.094117647,Seafood"Fish, monkfish",0.019529412,0.185647059,0,0.964705882,Seafood"Fish, ocean perch, Atlantic",0.0188,0.1852,0,0.96,Seafood"Fish, perch, mixed species",0.01173913,0.248695652,0,1.173913043,Seafood"Fish, pike, walleye",0.015564516,0.245403226,0,1.193548387,Seafood"Fish, pollock, Alaska, cooked (not previously frozen)",0.002588235,0.194235294,0,0.8,Seafood"Fish, pollock, Atlantic",0.012588235,0.249176471,0,1.176470588,Seafood"Fish, roughy, orange",0.009058824,0.226352941,0,1.047058824,Seafood"Fish, salmon, Atlantic, wild",0.081294118,0.254352941,0,1.823529412,Seafood"Fish, salmon, Atlantic, wild",0.081294118,0.254352941,0,1.823529412,Seafood"Fish, salmon, coho, farmed",0.082307692,0.243006993,0,1.783216783,Seafood"Fish, salmon, pink",0.052823529,0.245764706,0,1.529411765,Seafood"Fish, Salmon, pink, canned, drained solids, without skin and bones",0.042117647,0.246235294,0,1.364705882,Seafood"Fish, Salmon, red (sockeye), filets with skin",0.114259259,0.606203704,0,3.453703704,Seafood"Fish, salmon, sockeye",0.055647059,0.264823529,0,1.564705882,Seafood"Fish, salmon, sockeye, canned, drained solids",0.073882353,0.235882353,0,1.670588235,Seafood"Fish, sea bass, mixed species",0.025643564,0.236336634,0,1.237623762,Seafood"Fish, snapper, mixed species",0.017176471,0.263058824,0,1.282352941,Seafood"Fish, swordfish",0.079294118,0.234470588,0,1.717647059,Seafood"Fish, tilapia",0.026551724,0.261494253,0,1.275862069,Seafood"Fish, trout, mixed species, cooked, dry heat",0.084677419,0.266290323,0,1.903225806,Seafood"Fish, trout, rainbow",0.058181818,0.229230769,0,1.496503497,Seafood"Fish, trout, rainbow, farmed",0.073802817,0.238028169,0,1.676056338,Seafood"Fish, tuna, light, canned in water, without salt, drained solids",0.008235294,0.255058824,0,1.164705882,Seafood"Fish, tuna, skipjack, fresh, cooked, dry heat",0.012941176,0.282117647,0,1.317647059,Seafood"Fish, tuna, yellowfin, fresh, cooked, dry heat",0.005882353,0.291529412,0,1.294117647,Seafood"Fish, whitefish, mixed species",0.075058824,0.244705882,0,1.717647059,Seafood"Fish, yellowtail, mixed species",0.067191781,0.296712329,0,1.869863014,SeafoodLobster,0.00862069,0.19,0,0.889655172,SeafoodMussels,0.044823529,0.238,0.073882353,1.717647059,SeafoodOctopus,0.020823529,0.298235294,0.044,1.635294118,SeafoodOysters,0.046,0.1888,0.0992,1.64,SeafoodShrimp,0.017058824,0.227764706,0.015176471,1.188235294,Seafood"Bagels, multigrain",0.012345679,0.099012346,0.474691358,2.407407407,Starches"Bagels, whole grain white",0,0.093023256,0.545116279,2.558139535,Starches"Bread, french or vienna, whole wheat",0.010416667,0.083333333,0.491041667,2.395833333,Starches"Bread, wheat, sprouted",0,0.131578947,0.338684211,1.868421053,Starches"Bread, wheat, sprouted, toasted",0,0.142894737,0.368157895,2.052631579,Starches"English muffins, whole grain white",0.01754386,0.070175439,0.501754386,2.456140351,StarchesEzekial bread,0.014705,0.117647,0.441176,2.3529,StarchesEzekial english muffin,0.014705,0.117647,0.441176,2.3529,Starches"Noodles, egg, dry, enriched",0.044473684,0.141578947,0.712631579,3.842105263,Starches"Oat bran, uncooked",0.070319149,0.172978723,0.662234043,2.457446809,Starches"Oatmeal, uncooked",0,0,0.6,3.6,Starches"Pancakes, plain, low fat, dry mix, incomplete (includes buttermilk)",0.061707317,0.073902439,0.746829268,3.829268293,Starches"Pancakes, whole wheat, dry mix, incomplete",0.013157895,0.105263158,0.741052632,3.5,Starches"Pasta, dry, enriched",0.015054945,0.13043956,0.746703297,3.714285714,Starches"Pasta, homemade, made with egg, cooked",0.017368421,0.052807018,0.235438596,1.298245614,Starches"Pasta, whole-wheat, cooked",0.017094017,0.05991453,0.300683761,1.487179487,Starches"Potato, Red",0,0,0.2,0.7,Starches"Quinoa, cooked",0.019189189,0.044,0.213027027,1.2,Starches"Quinoa, uncooked",0.060705882,0.141176471,0.641588235,3.682352941,Starches"Rice noodles, cooked",0.001988636,0.017897727,0.240113636,1.079545455,Starches"Rice, brown, long-grain, cooked",0.00970297,0.027376238,0.255792079,1.227722772,Starches"Rice, white, long-grain, parboiled, enriched, cooked",0.003670886,0.029113924,0.260506329,1.227848101,Starches"Rice, white, short-grain, enriched, cooked",0.00188172,0.023602151,0.287311828,1.301075269,Starches"Rolls, hamburger, whole grain white, calcium-fortified",0.034883721,0.093023256,0.465116279,2.558139535,Starches"Squash, Acorn",0,0,0.1,0.4,Starches"Squash, Butternut",0,,0.1,0.5,Starches"Squash, Kobocha",0,0,0.1,0.4,Starches"Squash, Spaghetti",0,0,0.1,0.3,StarchesSweet Potato,0,0,0.2,0.9,Starches"Wheat, KAMUT khorasan, cooked",0.008313953,0.057093023,0.275988372,1.319767442,StarchesWhite Potato,0,0,0.2,0.07,Starches"Egg, white, raw, fresh",0.001818182,0.109090909,0.007272727,0.515151515,Dairy"Egg, whole, raw, fresh",0.095,0.1256,0.0072,1.44,Dairy"Avocados, raw",0.100608696,0.022304348,0.078217391,1.2,nuts"Olives, ripe, canned (small-extra large)",0.107142857,0.008333333,0.063095238,1.19047619,nutsProtein Powder,0.00967,0.78125,0.0625,3.54838,Dairy"protein powder,mts,mint cookies & cream",3.88746129,0.150227318,0.087632602,0.625288265, protein"protein powder,isopure zero carb cookies & cream",3.426049591,0,0.016259218,0.818767784, protein"protein powder,elite whey & casein blend",3.859993458,0.189728492,0.04972195,0.650310762, protein"protein powder,mts,pb cookies & cream",4.210376079,0.157710697,0.105616214,0.657960465, protein"protein powder,muscleology nitro-pro cookies & cream",3.480004719,0.100271322,0.010027132,0.750265424, protein"protein powder,myprotein true whey cookies & cream",3.939899833,3.939899833,0.068113523,0.759933222, protein"protein powder,quest,strawberries & cream",3.428637843,0.106927011,0,0.75023245, protein"venison,ground 80/20 (venison/beef)",2.374,0,0.1515,0.2525, proteinvenison (deer loin-lean),1.58,0,0.032,0.302, protein"turkey bacon,butterball fully cooked",2.727,0,0.1818,0.2727, protein"seafood,wild swordfish steaks - whole catch brand (from whole foods) -",1.257,0,0.053,0.195, protein"seafood,tuna,canned",1.16,0,0.008,0.255, protein"seafood,tuna wild planet wild albacore",1.491,0,0.0625,0.2321, protein"protein powder,1st phorm,formula-1 looped fruit",3.712,0.0385,0.0192,0.8462, protein"protein powder,365 whey chocolate",2.732,0.0714,0.0179,0.5714, protein"protein powder,about time 100% whey protein isolate (all flavours)",3.57,0,0,0.88, protein"protein powder,310 shake",3.73,0.06,0.03,0.79, protein"protein powder,365 whey vanilla",3.892,0.3214,0.0357,0.5714, protein"protein powder,4everfit fruit blast isolate",3.571,0.0357,0,0.8571, protein"protein powder,about time casein,chocolate",4.118,0.1176,0.1176,0.6471, protein"protein powder,amplify xl double chocolate explosion",4.11,0.1567,0.0833,0.6833, protein"protein powder,allmax isoflex whey (all flavors)",3.7,0.0167,0.003,0.9, protein"protein powder,advocare",3.54,0.15,0.05,0.61, protein"protein powder,about time casein,peanut butter",4.471,0.1471,0.1176,0.7059, protein"protein powder,alkaline extreme whey",3.86,0.19,0.06,0.64, protein"protein powder,annex elite gold,chocolate peanut butter",3.5,0.0909,0.0455,0.6818, protein"protein powder,arbonne",3.881,0.3333,0.0714,0.4762, protein"protein powder,balance vanilla whey",3.935,0.066,0.055,0.794, protein"protein powder,beverly international muscle provider",3.621,0.103,0.034,0.724, protein"protein powder,amplify xl strawberry slam",3.913,0.145,0.0667,0.6833, protein"protein powder,beverly international ultimate muscle protein",3.984,0.125,0.1094,0.625, protein"protein powder,beverly international ultimate muscle provider",3.968,0.129,0.097,0.645, protein"protein powder,big bitch formula",3.3,0.04,0,0.78, protein"protein powder,bio trust protein blend",3.875,0.2,0.075,0.6, protein"protein powder,bioflex hydroflex",3.78,0.02,0.01,0.89, protein"protein powder,biochem whey",3.91,0.04,0.01,0.87, protein"protein powder,bioflex biofurnace",3.73,0.02,0.01,0.88, protein"protein powder,biox protein fusion",4.109,0.094,0.083,0.809, protein"protein powder,biox power whey isolate",3.71,0.01,0.01,0.89, protein"protein powder,bioflex proflex",3.89,0.05,0.04,0.83, protein"protein powder,biotrust,low carb",3.875,0.2,0.075,0.6, protein"protein powder,bluebonnet whey isolate",3.48,0,0,0.84, protein"protein powder,body nutrition,gardenia choc. cacao",3.553,0.1842,0.0789,0.5263, protein"protein powder,body fortress vanilla",4.24,0.09,0.06,0.79, protein"protein powder,body basix isolate (chocolate)",3.75,0.04,0,0.83, protein"protein powder,body nutrition,gardenia vanilla bean",3.421,0.2105,0.0526,0.5263, protein"protein powder,body tech whey tech",3.849,0.0987,0.0329,0.7895, protein"protein powder,bodytech,rich chocolate",4.063,0.1667,0.0625,0.7083, protein"protein powder,brng proto whey",3.89,0.11,0.11,0.56, protein"protein powder,bodytech primalpro,chocolate",3.674,0.1163,0.0465,0.6977, protein"protein powder,bpi sports whey-hd",3.333,0.0769,0.0513,0.641, protein"protein powder,bsn lean dessert banana nut",4.214,0.229,0.1,0.6, protein"protein powder,bsn-syntha 6 isolate",3.547,0.1105,0.0526,0.6579, protein"protein powder,captain anabolic pro peptide r22",3.802,0.062,0.026,0.83, protein"protein powder,bulk nutrients wpc strawberry and banana",3.94,0.05,0.06,0.8, protein"protein powder,bulk nutrients wpc chocolate",3.9,0.07,0.07,0.77, protein"protein powder,bulk nutrients wpc vanilla",3.97,0.05,0.06,0.81, protein"protein powder,cell biology,chocolate",3.883,0.0125,0.0125,0.93, protein"protein powder,cellucor cor performance,cookies n cream",3.809,0.1176,0.0441,0.7353, protein"protein powder,cellucor cor-performance whey",3.82,0.09,0.04,0.74, protein"protein powder,cellucor,peanut butter marshmallow",3.691,0.0882,0.0441,0.7353, protein"protein powder,champion cookies and cream pure whey",3.91,0.05,0.05,0.81, protein"protein powder,clutch bodyshop",3.125,0,0,0.7813, protein"protein powder,core pro,peanut butter ice cream",4.025,0.1238,0.0619,0.743, protein"protein powder,creamy choc fudge (plant)",3.739,0.2826,0.087,0.4565, protein"protein powder,davinci chocolate whey",3.736,0.2308,0.0433,0.6059, protein"protein powder,denovo nutrition max mps pure whey protein isolate",3.6,0.0333,0,0.8667, protein"protein powder,dales raw foods",3.64,0.04,0.04,0.8, protein"protein powder,cytosport",3.86,0.08,0.07,0.74, protein"protein powder,designer whey natural",3.924,0.77,0.077,0.731, protein"protein powder,diesel nutrition banana flavor",3.697,0.0167,0.0033,0.9, protein"protein powder,dot fit whey smooth-chocolate",3.91,0.19,0.06,0.63, protein"protein powder,diesel,vanilla",3.697,0.0167,0.0033,0.9, protein"protein powder,dream protein",4.33,0.14,0,0.83, protein"protein powder,dymatize elite vanilla",3.68,0.06,0.05,0.77, protein"protein powder,dymatize elite casein cookies n cream",3.75,0.16,0.03,0.75, protein"protein powder,dymatize blueberry muffin",3.682,0.182,0.045,0.636, protein"protein powder,dymatize elite,pina colada",3.706,0.0588,0.0588,0.7353, protein"protein powder,dymatize elite,cinnamon bun",3.586,0.0857,0.0429,0.7143, protein"protein powder,dymatize elite,chocolate cake batter",3.971,0.0857,0.0857,0.7143, protein"protein powder,dymatize elite whey (chocolate fudge)",3.786,0.076,0.061,0.733, protein"protein powder,eas whey (vanilla)",4.071,0.086,0.071,0.771, protein"protein powder,dynamite iso 100,gourmet chocolate",3.629,0.0645,0.0161,0.8065, protein"protein powder,dymatize nutrition elite xt (rich chocolate)",3.91,0.18,0.06,0.64, protein"protein powder,dymatize iso",3.84,0.04,0,0.92, protein"protein powder,elite whey protein isolate (chocolate mint)",3.765,0.062,0.062,0.741, protein"protein powder,evochem hydropro",3.75,0.06,0,0.84, protein"protein powder,ex-2",4.33,0.27,0.07,0.67, protein"protein powder,extreme mass (strawberry)",4.29,0.43,0.09,0.43, protein"protein powder,gemma pea isolate",4,0.03,0.07,0.8, protein"protein powder,giant sports (chocolate)",3.894,0.1111,0.05,0.75, protein"protein powder,garden of life raw",3.652,0.1739,0,0.7391, protein"protein powder,gnc 100% casein",3.81,0.24,0.04,0.6, protein"protein powder,gladiator by smoothie king",3.33,0.03,0,0.79, protein"protein powder,gnc performance pro 100% whey vanilla",3.87,0.12,0.06,0.71, protein"protein powder,gnc whey iso burst protein powder,vanilla",3.681,0.0213,0.0213,0.8511, protein"protein powder,gnc amplified wheybolic",3.54,0.09,0.01,0.76, protein"protein powder,gnc whey isolate",3.89,0.11,0.03,0.78, protein"protein powder,go vita whey isolate",3.73,0.01,0.01,0.9, protein"protein powder,goldtouch whey vanilla",3.58,0.03,0.02,0.82, protein"protein powder,growing naturals pea original",3.68,0.05,0.05,0.79, protein"protein powder,growing naturals rice vanilla",3.24,0.12,0,0.71, protein"protein powder,growing naturals rice chocolate",3.53,0.15,0,0.71, protein"protein powder,harmonized vegan",3.71,0.14,0.05,0.71, protein"protein powder,harmonized",3.483,0.0333,0.0167,0.8, protein"protein powder,healthy n fit 100% egg",3.429,0,0,0.857, protein"protein powder,hpn prozero,chocolate",3.255,0.0671,0.0336,0.6711, protein"protein powder,hit,core evolution",3.9,0.1,0.0333,0.8, protein"protein powder,heartland gold sprouted brown rice",3.98,0.15,0.02,0.8, protein"protein powder,intek (all flavors)",3.511,0.1111,0.0444,0.6667, protein"protein powder,interactive absolute vegetarian",3.63,0,0.03,0.83, protein"protein powder,hpn prozero,vanilla",3.255,0.0671,0.0336,0.6711, protein"protein powder,intek evolution",4,0.05,0.03,0.85, protein"protein powder,intrapro whey isolate",4.31,0.14,0.1,0.69, protein"protein powder,ironvegan,sprouted protein (vanilla)",3.688,0.1667,0.0208,0.7083, protein"protein powder,isagenix isapro whey",4.35,0.09,0.07,0.78, protein"protein powder,iso xp-whey isolate vanilla",3.6,0.0667,0,0.8333, protein"protein powder,iso-95 caruso fitness nutrition,vanilla",3.644,0,0,0.9111, protein"protein powder,isoflex",3.733,0.0333,0,0.9, protein"protein powder,isology all flavours",3.53,0.07,0.04,0.82, protein"protein powder,isofusion vanilla ice cream",3.629,0.0645,0.0161,0.8065, protein"protein powder,isomorph 28 chocolate",3.82,0.12,0.01,0.82, protein"protein powder,isopure lowcarb dutch chocolate",3.4,0.046,0.016,0.769, protein"protein powder,isopure zero carb creamy vanilla",3.37,0,0.016,0.806, protein"protein powder,isopure natural chocolate",3.591,0.1061,0.0152,0.7576, protein"protein powder,labrada lean body for her isolate (vanilla)",3.775,0.15,0.075,0.625, protein"protein powder,kaizen",3.68,0.03,0.01,0.88, protein"protein powder,jay robb egg white -all flavors",3.636,0.1212,0,0.7273, protein"protein powder,lean fit,chocolate",3.938,0.0625,0.0625,0.7813, protein"protein powder,lifetime lifes basic vanilla",3.91,0.15,0.03,0.67, protein"protein powder,lifetime fitness",4.083,0.1,0.0833,0.7333, protein"protein powder,lifetime whey isolate",3.85,0.08,0,0.85, protein"protein powder,magnum quattro (chocolate)",3.806,0.0556,0.0278,0.8333, protein"protein powder,manitoba harvest hemp",4.75,0.15,0.15,0.7, protein"protein powder,market pantry chocolate",4.06,0.15,0.06,0.74, protein"protein powder,maxs super whey (banana)",3.77,0.08,0.03,0.79, protein"protein powder,mediclear plus",3.902,0.1087,0.0761,0.6957, protein"protein powder,metabolic drive",3.93,0.138,0.069,0.689, protein"protein powder,metagenics unipro",3.652,0.2174,0,0.6957, protein"protein powder,mgn cake batter",3.767,0.133,0.033,0.733, protein"protein powder,maxx essentials",3.53,0.18,0.04,0.68, protein"protein powder,mhp paleo protein,triple chocolate",3.526,0.2736,0,0.6079, protein"protein powder,mgn premium protein blend",3.77,0.133,0.033,0.733, protein"protein powder,mrm veggie elite- chocolate mocha",3.5,0.1351,0.0405,0.6486, protein"protein powder,mrm whey",3.33,0.06,0.04,0.71, protein"protein powder,mmi premium whey",4.04,0.1,0.1,0.74, protein"protein powder,mrm whey (rich vanilla)",3.58,0.0617,0.0412,0.7407, protein"protein powder,mts,apple pie",4.017,0.0867,0.0867,0.7225, protein"protein powder,mrms veggie protein (chocolate)",3.816,0.1974,0.0789,0.5789, protein"protein powder,mts,cinnagram",4.017,0.0867,0.0867,0.7225, protein"protein powder,mts nutrition",4.588,0.1471,0.1176,0.7353, protein"protein powder,mts,pumpkin pie",4.016,0.0469,0.0781,0.7813, protein"protein powder,muscle max maxpro",3.914,0.0571,0.0286,0.8571, protein"protein powder,mts,red velvet",3.888,0.15,0.0875,0.625, protein"protein powder,muscle max whey",3.71,0.11,0.03,0.74, protein"protein powder,muscle milk protein plus",3.82,0.09,0.06,0.76, protein"protein powder,musclefeast whey isolate chocolate",3.75,0.07,0,0.86, protein"protein powder,musclepharm,chocolate peanut butter",3.814,0.1429,0.0429,0.7143, protein"protein powder,musclepharm,strawberry cheesecake",3.929,0.1714,0.0429,0.7143, protein"protein powder,muscletech 100% whey",3.69,0.28,0.03,0.62, protein"protein powder,musclepharm combat powder",3.94,0.12,0.07,0.71, protein"protein powder,muscletech anabolic halo chocolate",3.794,0.2941,0.0294,0.5882, protein"protein powder,myofusion (probiotic version)",3.85,0.23,0.05,0.62, protein"protein powder,myofusion advanced",3.75,0.1316,0.0658,0.6579, protein"protein powder,myofusion (old version-all flavours)",4.083,0.139,0.083,0.694, protein"protein powder,mutant isosurge birthday cake",1.17,0.02,0.01,0.25, protein"protein powder,myofusion elite",4.2,0.14,0.09,0.71, protein"protein powder,natural whey isolate",3.44,0.16,0.03,0.63, protein"protein powder,natera hemp",3.983,0.2333,0.1167,0.5, protein"protein powder,myprotein power,chocolate",3.988,0.06,0.068,0.784, protein"protein powder,natures best javapro (french vanilla)",3.625,0.0714,0.0536,0.7143, protein"protein powder,new solutions nutrition,chocolate",3.969,0.126,0.063,0.7244, protein"protein powder,nitro peak",4.17,0.17,0.1,0.67, protein"protein powder,nitro pro whey isolate",2.583,0.074,0.009,0.551, protein"protein powder,nla her whey",3.62,0.12,0.1,0.56, protein"protein powder,nnw healthy whey",3.56,0.04,0.04,0.77, protein"protein powder,north coast naturals,100% iso,chocolate",3.866,0.069,0.031,0.8276, protein"protein powder,now pea",3.64,0.03,0.06,0.73, protein"protein powder,now whey pure isolate",3.75,0.04,0.01,0.89, protein"protein powder,nrg-x sublime chocolate chip",3.576,0.0909,0.0606,0.6667, protein"protein powder,nutribiotic rice protein",3.67,0.12,0.02,0.8, protein"protein powder,nutrition direct whey",3.47,0.02,0.01,0.83, protein"protein powder,nytrowhey ultra elite-chocolate",3.98,0.27,0.11,0.48, protein"protein powder,optimum nutrition 100% gold standard whey,chocolate",3.906,0.1563,0.0313,0.75, protein"protein powder,optimum nutrition 100% standard whey,double chocolate",3.9,0.1,0.0333,0.8, protein"protein powder,optimum nutrition 100% whey gold standard",3.98,0.102,0.034,0.816, protein"protein powder,optimum nutrition chocolate egg white",3.69,0.12,0.03,0.74, protein"protein powder,optimum nutrition casein",3.64,0.09,0.03,0.73, protein"protein powder,optimum nutrition gold standard whey",4.08,0.1,0.03,0.82, protein"protein powder,optimum nutrition performance whey",4.1,0.18,0.1,0.56, protein"protein powder,optimum nutrition,platinum hydro whey",3.513,0.0513,0.0256,0.7692, protein"protein powder,optimum nutrition platinum tri-celle casein chocolate decadence flavor",3.558,0.1395,0.0233,0.6977, protein"protein powder,optimum whey",3.9,0.1,0.033,0.8, protein"protein powder,orgain,organic creamy chocolate (plant based)",3.739,0.2826,0.087,0.4565, protein"protein powder,pes select",3.813,0.0313,0.0625,0.7813, protein"protein powder,pescience,blondie",3.656,0.0938,0.0313,0.75, protein"protein powder,pescience,cookies n cream",3.547,0.0313,0.0469,0.75, protein"protein powder,pescience,peanut butter cup",3.6,0.1231,0.0308,0.7077, protein"protein powder,phd whey",3.8,0.08,0.06,0.73, protein"protein powder,phd diet whey",3.65,0.12,0.05,0.68, protein"protein powder,phd pharma pure",4.033,0.0333,0.0333,0.9, protein"protein powder,pierce performance nutrition vanilla",3.64,0.06,0.05,0.76, protein"protein powder,phoenix rising",3.56,0.04,0,0.85, protein"protein powder,plant fusion",4,0.1333,0.0667,0.7, protein"protein powder,power whey isolate",4,0.04,0.03,0.86, protein"protein powder,precision engineer whey",3.7,0.04,0.09,0.67, protein"protein powder,pro v 60",3.94,0.15,0.04,0.75, protein"protein powder,professional whey micellar casein",3.67,0.05,0.02,0.86, protein"protein powder,professional whey wpi",3.7,0,0.01,0.93, protein"protein powder,progressive organics,brown rice,natural vanilla",3.6,0.1,0,0.8, protein"protein powder,projym chocolate cookie crunch",4.018,0.1809,0.0904,0.6202, protein"protein powder,projym cookies and cream",4.003,0.1445,0.0723,0.6936, protein"protein powder,promasil",3.6,0,0.04,0.8, protein"protein powder,protizyme",3.86,0.09,0.09,0.69, protein"protein powder,pure protein",3.78,0.08,0.08,0.68, protein"protein powder,purepaleo chocolate",4.056,0.1111,0.0556,0.7778, protein"protein powder,pure protein natural whey (chocolate)",3.94,0.15,0.06,0.7, protein"protein powder,pvl iso sport whey,vanilla",4.162,0.0588,0.0441,0.8824, protein"protein powder,pvl isogold,cookies and cream",4.188,0.0625,0.0625,0.8438, protein"protein powder,pvl whey gourmet - peanut butter chocolate",3.806,0.129,0.065,0.677, protein"protein powder,quest cookies and cream",3.797,0.2188,0.0469,0.625, protein"protein powder,quest multi purpose mix",3.571,0.0357,0,0.8571, protein"protein powder,quest peanut butter",3.633,0.0667,0.0333,0.7667, protein"protein powder,quest salted caramel",3.571,0.1071,0,0.7857, protein"protein powder,quest,chocolate milkshake",3.6,0.1333,0,0.7667, protein"protein powder,quest,vanilla milkshake",3.571,0.1071,0,0.7857, protein"protein powder,reflex instant whey pro",3.852,0.064,0.044,0.8, protein"protein powder,reserveage grass fed whey protein (chocolate)",3.439,0.1212,0.0455,0.6364, protein"protein powder,revolutionary nutrition bionic edge whey",3.53,0.063,0.031,0.75, protein"protein powder,rsp nutrition,vanilla whey",4.059,0.1471,0.0588,0.7353, protein"protein powder,scivation whey",3.661,0.035,0.035,0.775, protein"protein powder,shakeology chocolate",3.81,0.38,0.05,0.38, protein"protein powder,sni,pro whey pw-30",3.453,0.1467,0.0222,0.6667, protein"protein powder,spiru-tein,french vanilla",3.443,0.3143,0.0143,0.5143, protein"protein powder,sun warrior",3.81,0.19,0,0.76, protein"protein powder,sunwarrior,warrior blend,vanilla",4.08,0.08,0.08,0.76, protein"protein powder,syntrax nectar",3.43,0,0,0.86, protein"protein powder,syntha-6",4.55,0.32,0.14,0.5, protein"protein powder,teras whey",3.87,0.14,0.05,0.74, protein"protein powder,teras whey,chocolate (grass fed)",4.214,0.1786,0.0714,0.7143, protein"protein powder,tested nutrition - chocolate",4.208,0.1667,0.0972,0.6667, protein"protein powder,titan complete nutrition",4.07,0.12,0.07,0.75, protein"protein powder,true nutrition vegan",3.91,0.09,0.04,0.78, protein"protein powder,true protein whey protein isolate cold-filtration. unflavored/unsweetened",3.6,0,0,0.9, protein"protein powder,trutein pumpkin pie",3.676,0.1471,0.0294,0.7059, protein"protein powder,trutein,banana cream",3.794,0.1471,0.0294,0.7353, protein"protein powder,trutein,choc truffle",3.735,0.1324,0.0294,0.7353, protein"protein powder,trutein,chocolate mint",3.735,0.1324,0.0294,0.7353, protein"protein powder,trutein,chocolate pb cup",3.809,0.1176,0.0441,0.7353, protein"protein powder,trutein,cinnabun",3.676,0.1471,0.0294,0.7059, protein"protein powder,trutein,lemon meringue pie",3.618,0.1324,0.0294,0.7059, protein"protein powder,trutein,mocha caramel",3.574,0.1471,0.0441,0.6471, protein"protein powder,trutein,orange creamsicle",3.618,0.1324,0.0294,0.7059, protein"protein powder,trutein,pb marshmallow cookie",3.676,0.1176,0.0294,0.7353, protein"protein powder,trutein,red velvet",4.265,0.1471,0.1471,0.5882, protein"protein powder,trutein,smores",4.63,0.1852,0.037,0.8889, protein"protein powder,trutein,shamrock shake",3.676,0.1176,0.0294,0.7353, protein"protein powder,trutein,vanilla",3.53,0.15,0.03,0.74, protein"protein powder,ultimate nutrition bioactive whey sensation 81",4,0.07,0.05,0.8, protein"protein powder,ultimate nutrition iso sensation",4.06,0.03,0,0.94, protein"protein powder,usn ultra whey -100 premium",3.831,0.0846,0.0462,0.7692, protein"protein powder,vega one",4.429,0.3095,0.1429,0.4762, protein"protein powder,vega sport",3.24,0.16,0.03,0.7, protein"protein powder,vp2",3.75,0.07,0.04,0.82, protein"protein powder,vega one nutritional shake",3.388,0.2638,0.0887,0.3837, protein"protein powder,v-core complete nutrition",3.97,0.13,0.07,0.66, protein"protein powder,warrior blend,vanilla",4.08,0.08,0.08,0.76, protein"protein powder,whey gourmet",3.933,0.1333,0.0667,0.7, protein"protein powder,woman incredible",3.678,0.0235,0.0076,0.879, protein"protein powder,wheyology all flavours",4.15,0.1,0.09,0.74, protein"protein powder,vpx zero carb",3.4,0,0,0.85, protein"ham,kirkland smoked black forest",1.48,0.04,0.04,0.24, protein"ham,maple leaf natural selections,smoked black forest",0.953,0,0.0156,0.2031, protein"ham,oscar meyer deli slices",0.762,0,0.0231,0.1385, protein"ham,pillers black forest deli",1.1,0,0.033,0.2, protein"ham,pillers simply free smoked breakfast",1.269,0.0385,0.0385,0.1923, protein"ice cream,cool whey",1.144,0.0833,0.0333,0.1278, protein"jerky,jack links",2.86,0.14,0.04,0.54, protein"jerky,caveman chicken,chipotle honey",2.482,0.0714,0.0536,0.4286, protein"jerky,turkey perky",3.21,0.21,0.07,0.39, protein"greek yogurt,activia (2%)",0.67,0.05,0.02,0.07, protein"greek yogurt,anchor",0.527,0.025,0.011,0.082, protein"greek yogurt,chobani (fat-free)",0.59,0.041,0,0.106, protein"greek yogurt,black swan (fat-free)",0.67,0.09,0,0.06, protein"greek yogurt,dannon (fat-free)",0.56,0.04,0,0.1, protein"greek yogurt,fage (fat-free)",0.59,0.04,0,0.11, protein"greek yogurt,fage 2%",0.74,0.04,0.02,0.1, protein"greek yogurt,farmers union (light)",1.01,0.09,0.05,0.06, protein"greek yogurt,fred meyer light",0.543,0.0357,0.0022,0.0951, protein"greek yogurt,greek gods 0%",0.35,0.06,0,0.04, protein"greek yogurt,giant eagle (0% fat)",0.546,0.0308,0,0.1057, protein"greek yogurt,hy-vee plain (fat free)",0.612,0.0471,0,0.1059, protein"greek yogurt,kirkland signature (plain/fat-free)",0.526,0.029,0,0.103, protein"greek yogurt,kroger (0%)",0.66,0.04,0,0.1, protein"greek yogurt,liberte (low-fat)",0.615,0.034,0.002,0.114, protein"greek yogurt,liberte blueberry (0%)",0.86,0.14,0,0.09, protein"greek yogurt,liberte (lactose free)",0.526,0.0286,0,0.1029, protein"greek yogurt,nostimo nonfat",0.581,0.0441,0,0.1013, protein"greek yogurt,liberte organic (fat-free)",0.48,0.046,0,0.074, protein"greek yogurt,oikos (fat-free)",0.57,0.04,0,0.097, protein"greek yogurt,olympic krema (fat free,plain)",0.706,0.0514,0.0023,0.12, protein"greek yogurt,oikos 0% fat,vanilla",0.818,0.1289,0,0.0756, protein"greek yogurt,presidents choice (0%)",0.69,0.07,0,0.1, protein"greek yogurt,siggis (fat-free)",0.59,0.04,0,0.11, protein"greek yogurt,skotidakis 0% plain",0.64,0.0571,0,0.1029, protein"greek yogurt,trader joes (non-fat)",0.6,0.05,0,0.1, protein"greek yogurt,trader joes (fat free)",0.53,0.03,0,0.1, protein"greek yogurt,voskos (fat-free)",0.581,0.039,0,0.106, protein"egg whites,egg beaters",0.435,0,0,0.1087, protein"egg white,muscle eggs",0.505,0.0211,0,0.1055, protein"egg whites,egg whites international",0.459,0.0082,0,0.1066, protein"egg whites,liquid (all whites)",0.54,0,0,0.11, protein"egg whites,liquid (daily chef)",0.435,0,0,0.1087, protein"egg whites,liquid (muscle egg)",0.49,0.02,0,0.1, protein"egg whites,liquid (muscle egg) chocolate and chocolate caramel",0.55,0.02,0,0.11, protein"egg whites,liquid (organic 365)",0.54,0,0,0.11, protein"egg whites,liquid (organic valley)",0.42,0.02,0,0.1, protein"egg whites,liquid (presidents choice blue menu)",0.444,0,0,0.1111, protein"egg whites,naturegg simply",0.444,0,0,0.1111, protein"egg whites,muscle eggs,key lime",0.471,0.0126,0,0.105, protein"egg,muscle egg whites (vanilla)",0.506,0.0211,0,0.1055, protein"egg,whites (golden egg)",0.407,0,0,0.1017, protein"peanut butter,natural",6.4,0.2,0.533,0.2, fat"mayonnaise,hellmans light",2.713,0.06,0.26,0.0333, fat"mayonnaise,neal brother",6.627,0,0.7333,0.0067, fat"greek yogurt,astro original",1.416,0.04,0.104,0.08, fat"flour,almond",6.214,0.2143,0.5,0.2143, fat"flaxseed,whole",5.5,0.3,0.4,0.2, fat"coconut milk (100%),aroy-d",1.725,0.025,0.175,0.0125, fat"coconut milk,thai kitchen lite",0.563,0.0127,0.057,0, fat"coconut,bobs red mill unsweetened raw",6.67,0.27,0.67,0.07, fat"coconut,unsweetened",7.33,0.27,0.67,0.07, fat"almond butter,almond butter: maranatha natural -roasted no sodium",6,0.1875,0.5,0.1875, fat"almond butter,barney",6.25,0.2188,0.5,0.2188, fat"almond butter,ds natural fluffbutter,bananas foster",5.914,0.2,0.4286,0.3143, fat"almond butter,justins organic maple",6.094,0.2813,0.4688,0.1875, fat"almond butter,ds natural fluffbutter,smores",5.914,0.2,0.4286,0.3143, fat"almond butter,kirkland (creamy)",6.688,0.2188,0.5625,0.1875, fat"almond butter,maranatha creamy no-stir",5.94,0.22,0.53,0.19, fat"almond butter,justins vanilla",6.063,0.375,0.4375,0.1563, fat"almond butter,maranatha crunchy",5.63,0.19,0.5,0.22, fat"almond butter,natural",7.2,0.207,0.633,0.16, fat"almond butter,maranatha dark chocolate almond spread",5.938,0.375,0.4375,0.125, fat"almond butter,vermont champlain cherry",6.69,0.31,0.5,0.31, fat"almond butter,snickerdoodle,buff bake",5.5,0.1944,0.3889,0.3056, fat"almond milk,unsweetened",0.116,0.0041,0.0102,0.0041, fat"oatmeal,quaker apples & cinnamon (low sugar)",3.661296765,0.709625882,0.048262548,0.096857942, carbs"oatmeal,quaker cinnamon & spice (low sugar)",3.823560082,0.70596823,0.058743787,0.117487573, carbs"oatmeal,quaker,maple & brown sugar (low sugar)",3.823560082,0.70596823,0.058743787,0.117487573, carbs"pasta,brown rice spaghetti,fit & active",3.598181283,0.76804815,0.026822806,0.071309411, carbs"pancakes & waffle mix,crunchy peanut butter,kodiak cakes,",4.113225891,0.509292151,0.113300677,0.264368246, carbs"pancake & waffle mix,full circle (gluten free)",3.520450618,0.816424502,0.010241311,0.040645203, carbs"quinoa & flax,hodgson mill,hot cereal",3.87501321,0.649945398,0.075034347,0.150068693, carbs"rice cakes,sunrice sea salt & balsamic vinegar",3.879933688,0.689922754,0.080067722,0.080067722, carbs"rice,brown y&y vermicelli",3.52,0.82016,0,0.06016, carbs"rice,organic millet & brown rice ramen",3.642866605,0.685852431,0.04305206,0.12849384, carbs"rice,uncle bens red beans & rice,ready rice",1.431974693,0.278844527,0.017053517,0.040746189, carbs"tortilla,dempsters whole wheat",2.897,0.4706,0.0735,0.0882, carbspumpkin,0.337,0.067,0.003,0.011, carbsquinoa,1.2,0.213,0.019,0.044, carbsquinoa flakes,3.71,0.64,0.07,0.13, carbs"quinoa macaroni,gogo quinoa",3.661,0.7857,0.0179,0.0893, carbs"quinoa,ancient harvest flakes",3.857,0.6286,0.06,0.1257, carbs"quinoa,ancient harvest pasta (dry)",3.6,0.81,0.02,0.07, carbs"quinoa,bobs red mill (dry)",3.81,0.67,0.06,0.14, carbs"quinoa,roland (dry)",3.56,0.64,0.06,0.13, carbs"quinoa,roland garden vegetable (dry)",3.611,0.6444,0.0556,0.1333, carbs"rice and beans,eden organic cajun (canned)",0.823,0.165,0.008,0.023, carbs"quinoa,roland roasted garlic (dry)",3.622,0.6222,0.0667,0.1333, carbs"rice and beans,eden organic carribean (canned)",0.838,0.162,0.008,0.031, carbs"rice cake,butter toffee",4.033,0.8667,0.0333,0.0667, carbs"rice cake,caramel chocolate chip",4.033,0.8667,0.0333,0.0667, carbs"rice cake,lundberg brown rice",3.395,0.7368,0.0263,0.0526, carbs"rice cakes,caramel",3.692,0.8462,0,0.0769, carbs"rice cakes,mini caramel corn",3.67,0.87,0.02,0.03, carbs"rice cakes,lundberg brown",3.395,0.7368,0.0263,0.0526, carbs"rice cakes,quaker apple cinnamon",3.85,0.85,0,0.08, carbs"rice cakes,quaker butter popcorn minis",4.775,0.7,0.175,0.1, carbs"rice cakes,quaker chocolate chunk",4.067,0.8,0.0667,0.0667, carbs"rice cakes,quaker ranch",4.33,0.7,0.17,0.07, carbs"rice cakes,quaker mini cheddar",4.67,0.7,0.17,0.07, carbs"rice cakes,quaker white cheddar",3.682,0.7273,0.0455,0.0909, carbs"rice sticks,dynasty dry",3.447,0.8421,0.0088,0, carbs"rice,annie chuns,white sticky",1.41,0.3238,0,0.0286, carbs"rice,basmati (kirkland)",1.147,0.2657,0,0.021, carbs"rice,brown",1.11,0.23,0.009,0.026, carbs"rice,basmati",1.03,0.23,0,0.02, carbs"rice,brown basmati,good health",3.631,0.7667,0.0222,0.0911, carbs"rice,brown basmati (ecolife),cooked",0.648,0.1379,0.0038,0.0153, carbs"rice,brown medley (trader joes) cooked",1.035,0.2129,0.0032,0.0387, carbs"rice,brown trader joes instant",1.682,0.3784,0.0068,0.027, carbs"rice,brown jasmine rice,trader joes (cooked)",1.315,0.2741,0.0111,0.0296, carbs"rice,brown trader joes medley (dry)",3.567,0.7333,0.0111,0.1333, carbs"rice,jasmine,thai hom mali (cooked)",1.463,0.3415,0,0.0244, carbs"rice,brown,sprouts long grain basmati",1.76,0.37,0.02,0.04, carbs"rice,carolina jasmine rice (dry)",3.467,0.8,0,0.0667, carbs"rice,heirloom forbidden rice (dry)",3.567,0.7167,0.0333,0.1, carbs"rice,minute brown (cooked)",1.856,0.352,0.032,0.04, carbs"rice,minute multi-grain medley w/ quinoa,cooked",0.928,0.1897,0.0086,0.023, carbs"rice,natures path organic crispy brown",3.783,0.767,0.05,0.067, carbs"rice,nishiki white sushi (uncooked)",3.429,0.7857,0,0.0714, carbs"rice,sticky white",1.18,0.26,0,0.03, carbs"rice,sukoyaka genmai brown rice (pre-cooked)",3.478,0.7778,0.0111,0.0667, carbs"rice,uncle bens bistro express cheddar cheese",1.456,0.2556,0.0333,0.0333, carbs"rice,uncle bens ready rice in brown basmati",1.69,0.3285,0.0255,0.0365, carbs"rice,uncle bens ready rice- basmati",1.65,0.33,0.02,0.05, carbs"rice,uncle bens spanish style ready rice",1.378,0.2778,0.0174,0.0278, carbs"rice,uncle bens,original ready rice",1.418,0.2857,0.0179,0.0286, carbs"rice,uncle bens ready rice (whole grain brown variety)",1.45,0.2786,0.0214,0.0357, carbs"rice,white",1.26,0.282,0.003,0.027, carbs"rice,wild",1.003,0.204,0.003,0.04, carbsrutabagas,0.384,0.0784,0.002,0.013, carbs"popcorn,skinny pop",5.444,0.5,0.3333,0.1111, carbs"popcorn,orville redenbacher (original kernels,unpopped)",3.638,0.725,0.0375,0.1, carbs"oat bran,hodgeson mills",3.275,0.5,0.075,0.15, carbs"oat bran,bobs red mill high fiber hot cereal",3.85,0.675,0.05,0.175, carbs"oat bran,quaker",3.982,0.754,0.052,0.123, carbs"oat bran,old wessex",4,0.6,0.09,0.18, carbs"oat bran,trader joes",3.25,0.6,0.08,0.18, carbs"oat bran,whole foods organic",3.875,0.675,0.075,0.125, carbs"oat flour,bobs red mill",4,0.65,0.08,0.18, carbs"oatmeal,old fashioned",3.825,0.675,0.065,0.133, carbs"oatmeal,better oats-oat revolution maple and brown sugar",3.977,0.7209,0.0698,0.1163, carbs"oatmeal,only oats",3.863,0.675,0.0625,0.15, carbs"oats,bobs red mill (extra thick)",3.96,0.67,0.07,0.15, carbs"oatmeal,steel cut",3.567,0.625,0.063,0.125, carbs"lentils,red,dry (cooked)",3.681,0.5957,0.0213,0.2766, carbscous cous,1.1,0.232,0.002,0.038, carbscarrots,0.382,0.082,0.002,0.009, carbs"cereal,cheerios,uncle tobys (australia)",3.663,0.7633,0.0367,0.07, carbscereal-kix,3.9,0.8333,0.0333,0.0667, carbs"cereal,chex mix traditional",4.259,0.7241,0.1207,0.069, carbs"cereal,ezekiel 4:9 sprouted whole grain",3.16,0.65,0.04,0.14, carbs"cereal,fiber one",2.67,0.6,0,0.07, carbs"cereal,kelloggs all-bran buds",3.033,0.5833,0.0333,0.1, carbs"beans,black,eden organic (canned)",0.746,0.115,0.008,0.054, carbs
+Name,Fat per gram,Protein per gram,Carbs per gram,Calories per gram,Category
+"almond butter, plain",0.555,0.209375,0.188125,6.125,Nuts
+"almond butter,almond butter: maranatha natural -roasted no sodium",6,0.1875,0.5,0.1875, fat
+"almond butter,barney",6.25,0.2188,0.5,0.2188, fat
+"almond butter,ds natural fluffbutter,bananas foster",5.914,0.2,0.4286,0.3143, fat
+"almond butter,ds natural fluffbutter,smores",5.914,0.2,0.4286,0.3143, fat
+"almond butter,justins organic maple",6.094,0.2813,0.4688,0.1875, fat
+"almond butter,justins vanilla",6.063,0.375,0.4375,0.1563, fat
+"almond butter,kirkland (creamy)",6.688,0.2188,0.5625,0.1875, fat
+"almond butter,maranatha creamy no-stir",5.94,0.22,0.53,0.19, fat
+"almond butter,maranatha crunchy",5.63,0.19,0.5,0.22, fat
+"almond butter,maranatha dark chocolate almond spread",5.938,0.375,0.4375,0.125, fat
+"almond butter,natural",7.2,0.207,0.633,0.16, fat
+"almond butter,snickerdoodle,buff bake",5.5,0.1944,0.3889,0.3056, fat
+"almond butter,vermont champlain cherry",6.69,0.31,0.5,0.31, fat
+"almond milk,unsweetened",0.116,0.0041,0.0102,0.0041, fat
+almonds,0.499300699,0.211468531,0.215524476,5.79020979,Nuts
+"Apples, raw, with skin",0.00168,0.00264,0.13808,0.52,Fruits
+"Apricots, raw",0.003870968,0.014,0.111225806,0.477419355,Fruits
+"Avocados, raw",0.100608696,0.022304348,0.078217391,1.2,nuts
+"Bagels, multigrain",0.012345679,0.099012346,0.474691358,2.407407407,Starches
+"Bagels, whole grain white",0,0.093023256,0.545116279,2.558139535,Starches
+"Bananas, dehydrated, or banana powder",0.0181,0.0389,0.8828,3.46,Fruits
+"Bananas, raw",0.003288889,0.010888889,0.2284,0.888888889,Fruits
+"beans,black,eden organic (canned)",0.746,0.115,0.008,0.054, carbs
+"Beef, loin, top loin steak, boneless",0.111529412,0.285647059,0,2.235294118,Meat
+"Bison, ground, grass-fed, cooked",0.086235294,0.254470588,0,1.788235294,Meat
+"Blackberries, raw",0.004930556,0.013888889,0.096111111,0.430555556,Fruits
+"Blueberries, raw",0.003310811,0.007432432,0.144932432,0.567567568,Fruits
+"Bread, french or vienna, whole wheat",0.010416667,0.083333333,0.491041667,2.395833333,Starches
+"Bread, wheat, sprouted",0,0.131578947,0.338684211,1.868421053,Starches
+"Bread, wheat, sprouted, toasted",0,0.142894737,0.368157895,2.052631579,Starches
+butter,7.34,0.001,0.811,0.009, fat
+"Butter, salted",0.812,0.008,0,7.2,Oils
+carrots,0.382,0.082,0.002,0.009, carbs
+"cereal,cheerios,uncle tobys (australia)",3.663,0.7633,0.0367,0.07, carbs
+"cereal,chex mix traditional",4.259,0.7241,0.1207,0.069, carbs
+"cereal,ezekiel 4:9 sprouted whole grain",3.16,0.65,0.04,0.14, carbs
+"cereal,fiber one",2.67,0.6,0,0.07, carbs
+"cereal,kelloggs all-bran buds",3.033,0.5833,0.0333,0.1, carbs
+cereal-kix,3.9,0.8333,0.0333,0.0667, carbs
+"Cheese, brick",0.296818182,0.232424242,0.027878788,3.712121212,Dairy
+"Cheese, brie",0.276895944,0.207407407,0.004585538,3.350970018,Dairy
+"Cheese, camembert",0.242680776,0.197883598,0.004585538,2.998236332,Dairy
+"Cheese, caraway",0.292063492,0.251851852,0.030687831,3.774250441,Dairy
+"Cheese, cheddar",0.333106061,0.228712121,0.030909091,4.037878788,Dairy
+"Cheese, cheddar, nonfat or fat free",0,0.321428571,0.071428571,1.571428571,Dairy
+"Cheese, cheddar, sharp, sliced",0.338421053,0.242631579,0.021052632,4.105263158,Dairy
+"Cheese, colby",0.321136364,0.237575758,0.025681818,3.939393939,Dairy
+"Cheese, cottage, creamed, large or small curd",0.04300885,0.111238938,0.03380531,0.982300885,Dairy
+"Cheese, cottage, lowfat, 1% milkfat",0.010176991,0.123893805,0.027168142,0.716814159,Dairy
+"Cheese, cottage, lowfat, 2% milkfat",0.022743363,0.104513274,0.047610619,0.814159292,Dairy
+"Cheese, cottage, nonfat, uncreamed, dry, large or small curd",0.002896552,0.10337931,0.06662069,0.717241379,Dairy
+"Cheese, cream",0.344137931,0.06137931,0.055172414,3.517241379,Dairy
+"Cheese, edam",0.277954145,0.24973545,0.014462081,3.562610229,Dairy
+"Cheese, feta",0.2128,0.142133333,0.040866667,2.64,Dairy
+"Cheese, fontina",0.311363636,0.255984848,0.015530303,3.886363636,Dairy
+"Cheese, gouda",0.274426808,0.249382716,0.022222222,3.562610229,Dairy
+"Cheese, gruyere",0.32345679,0.298059965,0.003527337,4.126984127,Dairy
+"Cheese, limburger",0.272537313,0.200522388,0.004925373,3.268656716,Dairy
+"Cheese, mexican, queso cotija",0.3,0.2,0.04,3.6,Dairy
+"Cheese, monterey",0.30280303,0.244772727,0.006818182,3.727272727,Dairy
+"Cheese, mozzarella, part skim milk",0.159082892,0.242680776,0.027865961,2.53968254,Dairy
+"Cheese, mozzarella, whole milk",0.223482143,0.221696429,0.021875,3,Dairy
+"Cheese, muenster",0.300378788,0.234090909,0.011212121,3.681818182,Dairy
+"Cheese, neufchatel",0.227865961,0.091358025,0.035978836,2.53968254,Dairy
+"Cheese, parmesan, grated",0.2784,0.2842,0.1391,4.2,Dairy
+"Cheese, parmesan, hard",0.258201058,0.357671958,0.032098765,3.915343915,Dairy
+"Cheese, port de salut",0.281969697,0.23780303,0.005681818,3.522727273,Dairy
+"Cheese, provolone",0.266212121,0.255833333,0.021363636,3.507575758,Dairy
+"Cheese, ricotta, part skim milk",0.079112903,0.113870968,0.051370968,1.379032258,Dairy
+"Cheese, ricotta, whole milk",0.12983871,0.112580645,0.030403226,1.741935484,Dairy
+"Cheese, romano",0.269488536,0.318165785,0.03633157,3.880070547,Dairy
+"Cheese, roquefort",0.306525573,0.215520282,0.02010582,3.703703704,Dairy
+"Cheese, swiss",0.309924242,0.269621212,0.014393939,3.931818182,Dairy
+"Cheese, Swiss, nonfat or fat free",0,0.283928571,0.033928571,1.285714286,Dairy
+"Cherries, sour, red, raw",0.003032258,0.01,0.121806452,0.503225806,Fruits
+"Cherries, sweet, raw",0.002028986,0.01057971,0.160072464,0.630434783,Fruits
+"Chicken breast, oven-roasted, fat-free, sliced",0.003809524,0.167857143,0.021666667,0.785714286,Meat
+Chicken thighs,0.077307692,0.242307692,0,1.638461538,Meat
+"Chicken, breast",0.045071429,0.309071429,0,1.728571429,Meat
+"Chicken, ground, lean",0.05993,0.17979,,1.2799,Meat
+Clams,0.019529412,0.255529412,0.051294118,1.482352941,Seafood
+"coconut milk (100%),aroy-d",1.725,0.025,0.175,0.0125, fat
+"coconut milk,thai kitchen lite",0.563,0.0127,0.057,0, fat
+"coconut,bobs red mill unsweetened raw",6.67,0.27,0.67,0.07, fat
+"coconut,unsweetened",7.33,0.27,0.67,0.07, fat
+cous cous,1.1,0.232,0.002,0.038, carbs
+"Crab, Alaska",0.015373134,0.193507463,0,0.970149254,Seafood
+"Crab, queen",0.015058824,0.237176471,0,1.152941176,Seafood
+"Cranberries, dried, sweetened",0.011,0.00175,0.828,3.075,Fruits
+"Dates, deglet noor",0.003877551,0.024489796,0.750272109,2.823129252,Fruits
+"egg white,muscle eggs",0.505,0.0211,0,0.1055, protein
+"egg whites,egg beaters",0.435,0,0,0.1087, protein
+"egg whites,egg whites international",0.459,0.0082,0,0.1066, protein
+"egg whites,liquid (all whites)",0.54,0,0,0.11, protein
+"egg whites,liquid (daily chef)",0.435,0,0,0.1087, protein
+"egg whites,liquid (muscle egg)",0.49,0.02,0,0.1, protein
+"egg whites,liquid (muscle egg) chocolate and chocolate caramel",0.55,0.02,0,0.11, protein
+"egg whites,liquid (organic 365)",0.54,0,0,0.11, protein
+"egg whites,liquid (organic valley)",0.42,0.02,0,0.1, protein
+"egg whites,liquid (presidents choice blue menu)",0.444,0,0,0.1111, protein
+"egg whites,muscle eggs,key lime",0.471,0.0126,0,0.105, protein
+"egg whites,naturegg simply",0.444,0,0,0.1111, protein
+"Egg, white, raw, fresh",0.001818182,0.109090909,0.007272727,0.515151515,Dairy
+"Egg, whole, raw, fresh",0.095,0.1256,0.0072,1.44,Dairy
+"egg,muscle egg whites (vanilla)",0.506,0.0211,0,0.1055, protein
+"egg,whites (golden egg)",0.407,0,0,0.1017, protein
+Eggnog,0.041889764,0.045511811,0.080511811,0.881889764,Dairy
+"Elderberries, raw",0.004965517,0.00662069,0.184,0.731034483,Fruits
+"English muffins, whole grain white",0.01754386,0.070175439,0.501754386,2.456140351,Starches
+Ezekial bread,0.014705,0.117647,0.441176,2.3529,Starches
+Ezekial english muffin,0.014705,0.117647,0.441176,2.3529,Starches
+"Figs, raw",0.00296875,0.0075,0.191875,0.734375,Fruits
+"Fish oil, cod liver",1,0,0,9.111111111,oils
+"Fish oil, herring",1,0,0,9.044117647,oils
+"Fish, bass, striped",0.029919355,0.22733871,0,1.241935484,Seafood
+"Fish, catfish, channel, farmed",0.071888112,0.184405594,0,1.440559441,Seafood
+"Fish, cod, Pacific",0.005,0.187333333,0,0.844444444,Seafood
+"Fish, cod, Pacific, cooked (not previously frozen)",0.002470588,0.204235294,0,0.835294118,Seafood
+"Fish, haddock",0.005466667,0.199866667,0,0.9,Seafood
+"Fish, halibut",0.177411765,0.184235294,0,2.388235294,Seafood
+"Fish, halibut, Atlantic and Pacific",0.016117647,0.225411765,0,1.105882353,Seafood
+"Fish, herring, Pacific",0.177916667,0.210069444,0,2.5,Seafood
+"Fish, mackerel, king",0.025647059,0.26,0,1.341176471,Seafood
+"Fish, mahimahi",0.009058824,0.237176471,0,1.094117647,Seafood
+"Fish, monkfish",0.019529412,0.185647059,0,0.964705882,Seafood
+"Fish, ocean perch, Atlantic",0.0188,0.1852,0,0.96,Seafood
+"Fish, perch, mixed species",0.01173913,0.248695652,0,1.173913043,Seafood
+"Fish, pike, walleye",0.015564516,0.245403226,0,1.193548387,Seafood
+"Fish, pollock, Alaska, cooked (not previously frozen)",0.002588235,0.194235294,0,0.8,Seafood
+"Fish, pollock, Atlantic",0.012588235,0.249176471,0,1.176470588,Seafood
+"Fish, roughy, orange",0.009058824,0.226352941,0,1.047058824,Seafood
+"Fish, salmon, Atlantic, wild",0.081294118,0.254352941,0,1.823529412,Seafood
+"Fish, salmon, Atlantic, wild",0.081294118,0.254352941,0,1.823529412,Seafood
+"Fish, salmon, coho, farmed",0.082307692,0.243006993,0,1.783216783,Seafood
+"Fish, salmon, pink",0.052823529,0.245764706,0,1.529411765,Seafood
+"Fish, Salmon, pink, canned, drained solids, without skin and bones",0.042117647,0.246235294,0,1.364705882,Seafood
+"Fish, Salmon, red (sockeye), filets with skin",0.114259259,0.606203704,0,3.453703704,Seafood
+"Fish, salmon, sockeye",0.055647059,0.264823529,0,1.564705882,Seafood
+"Fish, salmon, sockeye, canned, drained solids",0.073882353,0.235882353,0,1.670588235,Seafood
+"Fish, sea bass, mixed species",0.025643564,0.236336634,0,1.237623762,Seafood
+"Fish, snapper, mixed species",0.017176471,0.263058824,0,1.282352941,Seafood
+"Fish, swordfish",0.079294118,0.234470588,0,1.717647059,Seafood
+"Fish, tilapia",0.026551724,0.261494253,0,1.275862069,Seafood
+"Fish, trout, mixed species, cooked, dry heat",0.084677419,0.266290323,0,1.903225806,Seafood
+"Fish, trout, rainbow",0.058181818,0.229230769,0,1.496503497,Seafood
+"Fish, trout, rainbow, farmed",0.073802817,0.238028169,0,1.676056338,Seafood
+"Fish, tuna, light, canned in water, without salt, drained solids",0.008235294,0.255058824,0,1.164705882,Seafood
+"Fish, tuna, skipjack, fresh, cooked, dry heat",0.012941176,0.282117647,0,1.317647059,Seafood
+"Fish, tuna, yellowfin, fresh, cooked, dry heat",0.005882353,0.291529412,0,1.294117647,Seafood
+"Fish, whitefish, mixed species",0.075058824,0.244705882,0,1.717647059,Seafood
+"Fish, yellowtail, mixed species",0.067191781,0.296712329,0,1.869863014,Seafood
+"flaxseed,whole",5.5,0.3,0.4,0.2, fat
+"flour,almond",6.214,0.2143,0.5,0.2143, fat
+"Goji berries, dried",0.003928571,0.1425,0.770714286,3.5,Fruits
+"Grapefruit, raw, pink and red and white, all areas",0.001,0.006304348,0.080782609,0.32173913,Fruits
+"Grapes, muscadine, raw",0.005,0.008333333,0.14,0.5,Fruits
+"Grapes, red or green (European type, such as Thompson seedless), raw",0.001589404,0.007218543,0.180993377,0.688741722,Fruits
+Greek Yogurt 0%,0,0.102857,0.05714,1.59,Dairy
+"greek yogurt,activia (2%)",0.67,0.05,0.02,0.07, protein
+"greek yogurt,anchor",0.527,0.025,0.011,0.082, protein
+"greek yogurt,astro original",1.416,0.04,0.104,0.08, fat
+"greek yogurt,black swan (fat-free)",0.67,0.09,0,0.06, protein
+"greek yogurt,chobani (fat-free)",0.59,0.041,0,0.106, protein
+"greek yogurt,dannon (fat-free)",0.56,0.04,0,0.1, protein
+"greek yogurt,fage (fat-free)",0.59,0.04,0,0.11, protein
+"greek yogurt,fage 2%",0.74,0.04,0.02,0.1, protein
+"greek yogurt,farmers union (light)",1.01,0.09,0.05,0.06, protein
+"greek yogurt,fred meyer light",0.543,0.0357,0.0022,0.0951, protein
+"greek yogurt,giant eagle (0% fat)",0.546,0.0308,0,0.1057, protein
+"greek yogurt,greek gods 0%",0.35,0.06,0,0.04, protein
+"greek yogurt,hy-vee plain (fat free)",0.612,0.0471,0,0.1059, protein
+"greek yogurt,kirkland signature (plain/fat-free)",0.526,0.029,0,0.103, protein
+"greek yogurt,kroger (0%)",0.66,0.04,0,0.1, protein
+"greek yogurt,liberte (lactose free)",0.526,0.0286,0,0.1029, protein
+"greek yogurt,liberte (low-fat)",0.615,0.034,0.002,0.114, protein
+"greek yogurt,liberte blueberry (0%)",0.86,0.14,0,0.09, protein
+"greek yogurt,liberte organic (fat-free)",0.48,0.046,0,0.074, protein
+"greek yogurt,nostimo nonfat",0.581,0.0441,0,0.1013, protein
+"greek yogurt,oikos (fat-free)",0.57,0.04,0,0.097, protein
+"greek yogurt,oikos 0% fat,vanilla",0.818,0.1289,0,0.0756, protein
+"greek yogurt,olympic krema (fat free,plain)",0.706,0.0514,0.0023,0.12, protein
+"greek yogurt,presidents choice (0%)",0.69,0.07,0,0.1, protein
+"greek yogurt,siggis (fat-free)",0.59,0.04,0,0.11, protein
+"greek yogurt,skotidakis 0% plain",0.64,0.0571,0,0.1029, protein
+"greek yogurt,trader joes (fat free)",0.53,0.03,0,0.1, protein
+"greek yogurt,trader joes (non-fat)",0.6,0.05,0,0.1, protein
+"greek yogurt,voskos (fat-free)",0.581,0.039,0,0.106, protein
+"Ham, honey, smoked, cooked",0.023636364,0.179272727,0.072727273,1.218181818,Meat
+"ham,kirkland smoked black forest",1.48,0.04,0.04,0.24, protein
+"ham,maple leaf natural selections,smoked black forest",0.953,0,0.0156,0.2031, protein
+"ham,oscar meyer deli slices",0.762,0,0.0231,0.1385, protein
+"ham,pillers black forest deli",1.1,0,0.033,0.2, protein
+"ham,pillers simply free smoked breakfast",1.269,0.0385,0.0385,0.1923, protein
+"ice cream,cool whey",1.144,0.0833,0.0333,0.1278, protein
+"jerky,caveman chicken,chipotle honey",2.482,0.0714,0.0536,0.4286, protein
+"jerky,jack links",2.86,0.14,0.04,0.54, protein
+"jerky,turkey perky",3.21,0.21,0.07,0.39, protein
+"lentils,red,dry (cooked)",3.681,0.5957,0.0213,0.2766, carbs
+Lobster,0.00862069,0.19,0,0.889655172,Seafood
+"Mangos, raw",0.003818182,0.008181818,0.149818182,0.6,Fruits
+"Margarine-like, margarine-butter blend, soybean oil and butter",0.803546099,0.002836879,0.007801418,7.304964539,oils
+"mayonnaise,hellmans light",2.713,0.06,0.26,0.0333, fat
+"mayonnaise,neal brother",6.627,0,0.7333,0.0067, fat
+"Melons, cantaloupe, raw",0.001920904,0.008418079,0.081581921,0.338983051,Fruits
+"milk,cows grass fed",0.587,0.048,0.0299,0.0315, carbs
+Mussels,0.044823529,0.238,0.073882353,1.717647059,Seafood
+"Nectarines, raw",0.003216783,0.010629371,0.105524476,0.440559441,Fruits
+"Noodles, egg, dry, enriched",0.044473684,0.141578947,0.712631579,3.842105263,Starches
+"Nuts, almonds, dry roasted, with salt added",0.525434783,0.209565217,0.210072464,5.97826087,Nuts
+"Nuts, almonds, honey roasted, unblanched",0.499027778,0.181666667,0.279027778,5.9375,Nuts
+"Nuts, almonds, oil roasted, lightly salted",0.551719745,0.212292994,0.176815287,6.070063694,Nuts
+"Nuts, almonds, oil roasted, with salt added, smoke flavor",0.558928571,0.214285714,0.178571429,6.071428571,Nuts
+"Nuts, beechnuts, dried",0.500176367,0.062081129,0.335097002,5.749559083,Nuts
+"Nuts, brazilnuts, dried, unblanched",0.670977444,0.143233083,0.117368421,6.586466165,Nuts
+"Nuts, butternuts, dried",0.569833333,0.249,0.1205,6.116666667,Nuts
+"Nuts, cashew butter, plain, with salt added",0.53,0.12125,0.303125,6.0625,Nuts
+"Nuts, cashew butter, plain, without salt added",0.494375,0.175625,0.275625,5.875,Nuts
+"Nuts, cashew nuts, dry roasted, with salt added",0.46350365,0.153065693,0.326934307,5.737226277,Nuts
+"Nuts, cashew nuts, oil roasted, with salt added",0.477674419,0.168372093,0.301627907,5.80620155,Nuts
+"Nuts, cashew nuts, oil roasted, without salt added",0.477674419,0.168372093,0.298682171,5.798449612,Nuts
+"Nuts, cashew nuts, raw",0.438447972,0.182363316,0.301940035,5.537918871,Nuts
+"Nuts, chestnuts, chinese, raw",0.010934744,0.041975309,0.490652557,2.257495591,Nuts
+"Nuts, chestnuts, european, raw, unpeeled",0.02262069,0.024206897,0.45537931,2.131034483,Nuts
+"Nuts, chestnuts, european, roasted",0.022027972,0.031678322,0.52958042,2.447552448,Nuts
+"Nuts, chestnuts, japanese, dried",0.012387097,0.052516129,0.814322581,3.6,Nuts
+"Nuts, chestnuts, japanese, raw",0.005291005,0.022574956,0.349206349,1.552028219,Nuts
+"Nuts, coconut cream, canned, sweetened",0.163157895,0.011578947,0.532105263,3.578947368,Nuts
+"Nuts, coconut meat, dried (desiccated), creamed",0.690652557,0.052910053,0.215167549,6.84303351,Nuts
+"Nuts, coconut meat, dried (desiccated), not sweetened",0.645149912,0.068783069,0.23633157,6.596119929,Nuts
+"Nuts, coconut meat, dried (desiccated), sweetened, shredded",0.354946237,0.028817204,0.476666667,5.010752688,Nuts
+"Nuts, coconut meat, raw",0.334875,0.03325,0.15225,3.5375,Nuts
+"Nuts, coconut milk, canned (liquid expressed from grated meat and water)",0.213318584,0.020221239,0.028097345,1.969026549,Nuts
+"Nuts, coconut milk, frozen (liquid expressed from grated meat and water)",0.208,0.016083333,0.055791667,2.020833333,Nuts
+"Nuts, coconut milk, raw (liquid expressed from grated meat and water)",0.238416667,0.022916667,0.055416667,2.3,Nuts
+"Nuts, coconut water (liquid from coconuts)",0.002,0.007208333,0.037083333,0.191666667,Nuts
+"Nuts, formulated, wheat-based, all flavors except macadamia, without salt",0.62292769,0.131216931,0.207760141,6.455026455,Nuts
+"Nuts, ginkgo nuts, canned",0.016193548,0.022903226,0.221032258,1.109677419,Nuts
+"Nuts, ginkgo nuts, dried",0.02010582,0.10335097,0.724514991,3.492063492,Nuts
+"Nuts, ginkgo nuts, raw",0.016931217,0.04303351,0.376014109,1.834215168,Nuts
+"Nuts, hazelnuts or filberts",0.607478261,0.149478261,0.166956522,6.27826087,Nuts
+"Nuts, hickorynuts, dried",0.643666667,0.127166667,0.1825,6.566666667,Nuts
+"Nuts, macadamia nuts, dry roasted, with salt added",0.760833333,0.077878788,0.128333333,7.159090909,Nuts
+"Nuts, macadamia nuts, dry roasted, without salt added",0.760833333,0.077878788,0.133787879,7.181818182,Nuts
+"Nuts, macadamia nuts, raw",0.757686567,0.079104478,0.138208955,7.179104478,Nuts
+"Nuts, mixed nuts, dry roasted, with peanuts, salt added, CHOSEN ROASTER",0.588030303,0.18,0.190227273,6.318181818,Nuts
+"Nuts, mixed nuts, dry roasted, with peanuts, salt added, PLANTERS pistachio blend",0.492993197,0.21952381,0.225102041,5.802721088,Nuts
+"Nuts, mixed nuts, dry roasted, with peanuts, with salt added",0.514525547,0.172992701,0.25350365,5.941605839,Nuts
+"Nuts, mixed nuts, dry roasted, with peanuts, without salt added",0.534961832,0.195038168,0.224198473,6.06870229,Nuts
+"Nuts, mixed nuts, oil roasted, with peanuts, lightly salted",0.539329806,0.200352734,0.210582011,6.0670194,Nuts
+"Nuts, mixed nuts, oil roasted, with peanuts, with salt added",0.539477612,0.200373134,0.210522388,6.067164179,Nuts
+"Nuts, pecans",0.719724771,0.091743119,0.138623853,6.908256881,Nuts
+"Nuts, pecans, dry roasted, with salt added",0.742857143,0.094885362,0.135449735,7.08994709,Nuts
+"Nuts, pecans, oil roasted, with salt added",0.752272727,0.092,0.130090909,7.145454545,Nuts
+"Nuts, pine nuts, dried",0.683703704,0.136888889,0.130814815,6.733333333,Nuts
+"Nuts, pine nuts, pinyon, dried",0.609876543,0.115696649,0.192945326,6.278659612,Nuts
+"Nuts, pistachio nuts, dry roasted",0.458211382,0.210487805,0.275528455,5.691056911,Nuts
+"Nuts, pistachio nuts, dry roasted, without salt added",0.458211382,0.210487805,0.282764228,5.723577236,Nuts
+"Nuts, pistachio nuts, raw",0.453170732,0.201626016,0.271707317,5.601626016,Nuts
+"Nuts, walnuts, black, dried",0.59328,0.24056,0.09576,6.192,Nuts
+"Nuts, walnuts, dry roasted, with salt added",0.607142857,0.142857143,0.178571429,6.428571429,Nuts
+"Nuts, walnuts, english",0.652136752,0.152307692,0.137094017,6.538461538,Nuts
+"Nuts, walnuts, glazed",0.357142857,0.082857143,0.476071429,5,Nuts
+"Oat bran, uncooked",0.070319149,0.172978723,0.662234043,2.457446809,Starches
+"oat bran,bobs red mill high fiber hot cereal",3.85,0.675,0.05,0.175, carbs
+"oat bran,hodgeson mills",3.275,0.5,0.075,0.15, carbs
+"oat bran,old wessex",4,0.6,0.09,0.18, carbs
+"oat bran,quaker",3.982,0.754,0.052,0.123, carbs
+"oat bran,trader joes",3.25,0.6,0.08,0.18, carbs
+"oat bran,whole foods organic",3.875,0.675,0.075,0.125, carbs
+"oat flour,bobs red mill",4,0.65,0.08,0.18, carbs
+"Oatmeal, uncooked",0,0,0.6,3.6,Starches
+"oatmeal,better oats-oat revolution maple and brown sugar",3.977,0.7209,0.0698,0.1163, carbs
+"oatmeal,old fashioned",3.825,0.675,0.065,0.133, carbs
+"oatmeal,only oats",3.863,0.675,0.0625,0.15, carbs
+"oatmeal,quaker apples & cinnamon (low sugar)",3.661296765,0.709625882,0.048262548,0.096857942, carbs
+"oatmeal,quaker cinnamon & spice (low sugar)",3.823560082,0.70596823,0.058743787,0.117487573, carbs
+"oatmeal,quaker,maple & brown sugar (low sugar)",3.823560082,0.70596823,0.058743787,0.117487573, carbs
+"oatmeal,steel cut",3.567,0.625,0.063,0.125, carbs
+"oats,bobs red mill (extra thick)",3.96,0.67,0.07,0.15, carbs
+Octopus,0.020823529,0.298235294,0.044,1.635294118,Seafood
+"Oil, avocado",1,0,0,8.857142857,oils
+"Oil, coconut",0.990441176,0,0,8.897058824,oils
+"Oil, corn, industrial and retail, all purpose salad or cooking",1,0,0,8.970588235,oils
+"Oil, flaxseed, contains added sliced flaxseed",0.989781022,0.003649635,0.003649635,8.759124088,oils
+"Oil, olive, salad or cooking",1,0,0,8.814814815,oils
+"Oil, PAM cooking spray, original",0.8,0,0.2,6.666666667,oils
+"Olives, ripe, canned (small-extra large)",0.107142857,0.008333333,0.063095238,1.19047619,nuts
+"Oranges, raw, all commercial varieties",0.001222222,0.009388889,0.1175,0.472222222,Fruits
+Oysters,0.046,0.1888,0.0992,1.64,Seafood
+"pancake & waffle mix,full circle (gluten free)",3.520450618,0.816424502,0.010241311,0.040645203, carbs
+"pancakes & waffle mix,crunchy peanut butter,kodiak cakes,",4.113225891,0.509292151,0.113300677,0.264368246, carbs
+"Pancakes, plain, low fat, dry mix, incomplete (includes buttermilk)",0.061707317,0.073902439,0.746829268,3.829268293,Starches
+"Pancakes, whole wheat, dry mix, incomplete",0.013157895,0.105263158,0.741052632,3.5,Starches
+"Pasta, dry, enriched",0.015054945,0.13043956,0.746703297,3.714285714,Starches
+"Pasta, homemade, made with egg, cooked",0.017368421,0.052807018,0.235438596,1.298245614,Starches
+"Pasta, whole-wheat, cooked",0.017094017,0.05991453,0.300683761,1.487179487,Starches
+"pasta,brown rice spaghetti,fit & active",3.598181283,0.76804815,0.026822806,0.071309411, carbs
+"Peaches, yellow, raw",0.002532468,0.009090909,0.09538961,0.38961039,Fruits
+Peanut Butter plain,0.4667,0.2667,0.2,6,Nuts
+"peanut butter,natural",6.4,0.2,0.533,0.2, fat
+"Pears, raw",0.001428571,0.003571429,0.152285714,0.571428571,Fruits
+"Pineapple, raw, all varieties",0.001212121,0.005393939,0.131212121,0.496969697,Fruits
+"Plums, raw",0.002787879,0.006969697,0.114181818,0.460606061,Fruits
+"popcorn,orville redenbacher (original kernels,unpopped)",3.638,0.725,0.0375,0.1, carbs
+"popcorn,skinny pop",5.444,0.5,0.3333,0.1111, carbs
+"Pork Sausage, Italian, sweet, links",0.084166667,0.161309524,0.020952381,1.488095238,Meat
+"Pork sausage, link/patty",0.372608696,0.134782609,0.006956522,3.913043478,Meat
+"Pork, bacon,  cooked",0.995058824,0.000705882,0,8.976470588,Meat
+"Pork, cured, bacon, pre-sliced, cooked, pan-fried",0.351304348,0.339130435,0.017391304,4.695652174,Meat
+"Pork, cured, ham",0.082892416,0.22292769,0.003174603,1.728395062,Meat
+"Pork, fresh, loin, sirloin (chops), boneless",0.055294118,0.281882353,0,1.694117647,Meat
+"Pork, fresh, loin, tenderloin",0.037058824,0.214941176,0.003058824,1.211764706,Meat
+"Pork, ground, 96% lean ",0.062,0.316941176,0.005647059,1.847058824,Meat
+"Potato, Red",0,0,0.2,0.7,Starches
+Protein Powder,0.00967,0.78125,0.0625,3.54838,Dairy
+"protein powder,1st phorm,formula-1 looped fruit",3.712,0.0385,0.0192,0.8462, protein
+"protein powder,310 shake",3.73,0.06,0.03,0.79, protein
+"protein powder,365 whey chocolate",2.732,0.0714,0.0179,0.5714, protein
+"protein powder,365 whey vanilla",3.892,0.3214,0.0357,0.5714, protein
+"protein powder,4everfit fruit blast isolate",3.571,0.0357,0,0.8571, protein
+"protein powder,about time 100% whey protein isolate (all flavours)",3.57,0,0,0.88, protein
+"protein powder,about time casein,chocolate",4.118,0.1176,0.1176,0.6471, protein
+"protein powder,about time casein,peanut butter",4.471,0.1471,0.1176,0.7059, protein
+"protein powder,advocare",3.54,0.15,0.05,0.61, protein
+"protein powder,alkaline extreme whey",3.86,0.19,0.06,0.64, protein
+"protein powder,allmax isoflex whey (all flavors)",3.7,0.0167,0.003,0.9, protein
+"protein powder,amplify xl double chocolate explosion",4.11,0.1567,0.0833,0.6833, protein
+"protein powder,amplify xl strawberry slam",3.913,0.145,0.0667,0.6833, protein
+"protein powder,annex elite gold,chocolate peanut butter",3.5,0.0909,0.0455,0.6818, protein
+"protein powder,arbonne",3.881,0.3333,0.0714,0.4762, protein
+"protein powder,balance vanilla whey",3.935,0.066,0.055,0.794, protein
+"protein powder,beverly international muscle provider",3.621,0.103,0.034,0.724, protein
+"protein powder,beverly international ultimate muscle protein",3.984,0.125,0.1094,0.625, protein
+"protein powder,beverly international ultimate muscle provider",3.968,0.129,0.097,0.645, protein
+"protein powder,big bitch formula",3.3,0.04,0,0.78, protein
+"protein powder,bio trust protein blend",3.875,0.2,0.075,0.6, protein
+"protein powder,biochem whey",3.91,0.04,0.01,0.87, protein
+"protein powder,bioflex biofurnace",3.73,0.02,0.01,0.88, protein
+"protein powder,bioflex hydroflex",3.78,0.02,0.01,0.89, protein
+"protein powder,bioflex proflex",3.89,0.05,0.04,0.83, protein
+"protein powder,biotrust,low carb",3.875,0.2,0.075,0.6, protein
+"protein powder,biox power whey isolate",3.71,0.01,0.01,0.89, protein
+"protein powder,biox protein fusion",4.109,0.094,0.083,0.809, protein
+"protein powder,bluebonnet whey isolate",3.48,0,0,0.84, protein
+"protein powder,body basix isolate (chocolate)",3.75,0.04,0,0.83, protein
+"protein powder,body fortress vanilla",4.24,0.09,0.06,0.79, protein
+"protein powder,body nutrition,gardenia choc. cacao",3.553,0.1842,0.0789,0.5263, protein
+"protein powder,body nutrition,gardenia vanilla bean",3.421,0.2105,0.0526,0.5263, protein
+"protein powder,body tech whey tech",3.849,0.0987,0.0329,0.7895, protein
+"protein powder,bodytech primalpro,chocolate",3.674,0.1163,0.0465,0.6977, protein
+"protein powder,bodytech,rich chocolate",4.063,0.1667,0.0625,0.7083, protein
+"protein powder,bpi sports whey-hd",3.333,0.0769,0.0513,0.641, protein
+"protein powder,brng proto whey",3.89,0.11,0.11,0.56, protein
+"protein powder,bsn lean dessert banana nut",4.214,0.229,0.1,0.6, protein
+"protein powder,bsn-syntha 6 isolate",3.547,0.1105,0.0526,0.6579, protein
+"protein powder,bulk nutrients wpc chocolate",3.9,0.07,0.07,0.77, protein
+"protein powder,bulk nutrients wpc strawberry and banana",3.94,0.05,0.06,0.8, protein
+"protein powder,bulk nutrients wpc vanilla",3.97,0.05,0.06,0.81, protein
+"protein powder,captain anabolic pro peptide r22",3.802,0.062,0.026,0.83, protein
+"protein powder,cell biology,chocolate",3.883,0.0125,0.0125,0.93, protein
+"protein powder,cellucor cor performance,cookies n cream",3.809,0.1176,0.0441,0.7353, protein
+"protein powder,cellucor cor-performance whey",3.82,0.09,0.04,0.74, protein
+"protein powder,cellucor,peanut butter marshmallow",3.691,0.0882,0.0441,0.7353, protein
+"protein powder,champion cookies and cream pure whey",3.91,0.05,0.05,0.81, protein
+"protein powder,clutch bodyshop",3.125,0,0,0.7813, protein
+"protein powder,core pro,peanut butter ice cream",4.025,0.1238,0.0619,0.743, protein
+"protein powder,creamy choc fudge (plant)",3.739,0.2826,0.087,0.4565, protein
+"protein powder,cytosport",3.86,0.08,0.07,0.74, protein
+"protein powder,dales raw foods",3.64,0.04,0.04,0.8, protein
+"protein powder,davinci chocolate whey",3.736,0.2308,0.0433,0.6059, protein
+"protein powder,denovo nutrition max mps pure whey protein isolate",3.6,0.0333,0,0.8667, protein
+"protein powder,designer whey natural",3.924,0.77,0.077,0.731, protein
+"protein powder,diesel nutrition banana flavor",3.697,0.0167,0.0033,0.9, protein
+"protein powder,diesel,vanilla",3.697,0.0167,0.0033,0.9, protein
+"protein powder,dot fit whey smooth-chocolate",3.91,0.19,0.06,0.63, protein
+"protein powder,dream protein",4.33,0.14,0,0.83, protein
+"protein powder,dymatize blueberry muffin",3.682,0.182,0.045,0.636, protein
+"protein powder,dymatize elite casein cookies n cream",3.75,0.16,0.03,0.75, protein
+"protein powder,dymatize elite vanilla",3.68,0.06,0.05,0.77, protein
+"protein powder,dymatize elite whey (chocolate fudge)",3.786,0.076,0.061,0.733, protein
+"protein powder,dymatize elite,chocolate cake batter",3.971,0.0857,0.0857,0.7143, protein
+"protein powder,dymatize elite,cinnamon bun",3.586,0.0857,0.0429,0.7143, protein
+"protein powder,dymatize elite,pina colada",3.706,0.0588,0.0588,0.7353, protein
+"protein powder,dymatize iso",3.84,0.04,0,0.92, protein
+"protein powder,dymatize nutrition elite xt (rich chocolate)",3.91,0.18,0.06,0.64, protein
+"protein powder,dynamite iso 100,gourmet chocolate",3.629,0.0645,0.0161,0.8065, protein
+"protein powder,eas whey (vanilla)",4.071,0.086,0.071,0.771, protein
+"protein powder,elite whey & casein blend",3.859993458,0.189728492,0.04972195,0.650310762, protein
+"protein powder,elite whey protein isolate (chocolate mint)",3.765,0.062,0.062,0.741, protein
+"protein powder,evochem hydropro",3.75,0.06,0,0.84, protein
+"protein powder,ex-2",4.33,0.27,0.07,0.67, protein
+"protein powder,extreme mass (strawberry)",4.29,0.43,0.09,0.43, protein
+"protein powder,garden of life raw",3.652,0.1739,0,0.7391, protein
+"protein powder,gemma pea isolate",4,0.03,0.07,0.8, protein
+"protein powder,giant sports (chocolate)",3.894,0.1111,0.05,0.75, protein
+"protein powder,gladiator by smoothie king",3.33,0.03,0,0.79, protein
+"protein powder,gnc 100% casein",3.81,0.24,0.04,0.6, protein
+"protein powder,gnc amplified wheybolic",3.54,0.09,0.01,0.76, protein
+"protein powder,gnc performance pro 100% whey vanilla",3.87,0.12,0.06,0.71, protein
+"protein powder,gnc whey iso burst protein powder,vanilla",3.681,0.0213,0.0213,0.8511, protein
+"protein powder,gnc whey isolate",3.89,0.11,0.03,0.78, protein
+"protein powder,go vita whey isolate",3.73,0.01,0.01,0.9, protein
+"protein powder,goldtouch whey vanilla",3.58,0.03,0.02,0.82, protein
+"protein powder,growing naturals pea original",3.68,0.05,0.05,0.79, protein
+"protein powder,growing naturals rice chocolate",3.53,0.15,0,0.71, protein
+"protein powder,growing naturals rice vanilla",3.24,0.12,0,0.71, protein
+"protein powder,harmonized",3.483,0.0333,0.0167,0.8, protein
+"protein powder,harmonized vegan",3.71,0.14,0.05,0.71, protein
+"protein powder,healthy n fit 100% egg",3.429,0,0,0.857, protein
+"protein powder,heartland gold sprouted brown rice",3.98,0.15,0.02,0.8, protein
+"protein powder,hit,core evolution",3.9,0.1,0.0333,0.8, protein
+"protein powder,hpn prozero,chocolate",3.255,0.0671,0.0336,0.6711, protein
+"protein powder,hpn prozero,vanilla",3.255,0.0671,0.0336,0.6711, protein
+"protein powder,intek (all flavors)",3.511,0.1111,0.0444,0.6667, protein
+"protein powder,intek evolution",4,0.05,0.03,0.85, protein
+"protein powder,interactive absolute vegetarian",3.63,0,0.03,0.83, protein
+"protein powder,intrapro whey isolate",4.31,0.14,0.1,0.69, protein
+"protein powder,ironvegan,sprouted protein (vanilla)",3.688,0.1667,0.0208,0.7083, protein
+"protein powder,isagenix isapro whey",4.35,0.09,0.07,0.78, protein
+"protein powder,iso xp-whey isolate vanilla",3.6,0.0667,0,0.8333, protein
+"protein powder,iso-95 caruso fitness nutrition,vanilla",3.644,0,0,0.9111, protein
+"protein powder,isoflex",3.733,0.0333,0,0.9, protein
+"protein powder,isofusion vanilla ice cream",3.629,0.0645,0.0161,0.8065, protein
+"protein powder,isology all flavours",3.53,0.07,0.04,0.82, protein
+"protein powder,isomorph 28 chocolate",3.82,0.12,0.01,0.82, protein
+"protein powder,isopure lowcarb dutch chocolate",3.4,0.046,0.016,0.769, protein
+"protein powder,isopure natural chocolate",3.591,0.1061,0.0152,0.7576, protein
+"protein powder,isopure zero carb cookies & cream",3.426049591,0,0.016259218,0.818767784, protein
+"protein powder,isopure zero carb creamy vanilla",3.37,0,0.016,0.806, protein
+"protein powder,jay robb egg white -all flavors",3.636,0.1212,0,0.7273, protein
+"protein powder,kaizen",3.68,0.03,0.01,0.88, protein
+"protein powder,labrada lean body for her isolate (vanilla)",3.775,0.15,0.075,0.625, protein
+"protein powder,lean fit,chocolate",3.938,0.0625,0.0625,0.7813, protein
+"protein powder,lifetime fitness",4.083,0.1,0.0833,0.7333, protein
+"protein powder,lifetime lifes basic vanilla",3.91,0.15,0.03,0.67, protein
+"protein powder,lifetime whey isolate",3.85,0.08,0,0.85, protein
+"protein powder,magnum quattro (chocolate)",3.806,0.0556,0.0278,0.8333, protein
+"protein powder,manitoba harvest hemp",4.75,0.15,0.15,0.7, protein
+"protein powder,market pantry chocolate",4.06,0.15,0.06,0.74, protein
+"protein powder,maxs super whey (banana)",3.77,0.08,0.03,0.79, protein
+"protein powder,maxx essentials",3.53,0.18,0.04,0.68, protein
+"protein powder,mediclear plus",3.902,0.1087,0.0761,0.6957, protein
+"protein powder,metabolic drive",3.93,0.138,0.069,0.689, protein
+"protein powder,metagenics unipro",3.652,0.2174,0,0.6957, protein
+"protein powder,mgn cake batter",3.767,0.133,0.033,0.733, protein
+"protein powder,mgn premium protein blend",3.77,0.133,0.033,0.733, protein
+"protein powder,mhp paleo protein,triple chocolate",3.526,0.2736,0,0.6079, protein
+"protein powder,mmi premium whey",4.04,0.1,0.1,0.74, protein
+"protein powder,mrm veggie elite- chocolate mocha",3.5,0.1351,0.0405,0.6486, protein
+"protein powder,mrm whey",3.33,0.06,0.04,0.71, protein
+"protein powder,mrm whey (rich vanilla)",3.58,0.0617,0.0412,0.7407, protein
+"protein powder,mrms veggie protein (chocolate)",3.816,0.1974,0.0789,0.5789, protein
+"protein powder,mts nutrition",4.588,0.1471,0.1176,0.7353, protein
+"protein powder,mts,apple pie",4.017,0.0867,0.0867,0.7225, protein
+"protein powder,mts,cinnagram",4.017,0.0867,0.0867,0.7225, protein
+"protein powder,mts,mint cookies & cream",3.88746129,0.150227318,0.087632602,0.625288265, protein
+"protein powder,mts,pb cookies & cream",4.210376079,0.157710697,0.105616214,0.657960465, protein
+"protein powder,mts,pumpkin pie",4.016,0.0469,0.0781,0.7813, protein
+"protein powder,mts,red velvet",3.888,0.15,0.0875,0.625, protein
+"protein powder,muscle max maxpro",3.914,0.0571,0.0286,0.8571, protein
+"protein powder,muscle max whey",3.71,0.11,0.03,0.74, protein
+"protein powder,muscle milk protein plus",3.82,0.09,0.06,0.76, protein
+"protein powder,musclefeast whey isolate chocolate",3.75,0.07,0,0.86, protein
+"protein powder,muscleology nitro-pro cookies & cream",3.480004719,0.100271322,0.010027132,0.750265424, protein
+"protein powder,musclepharm combat powder",3.94,0.12,0.07,0.71, protein
+"protein powder,musclepharm,chocolate peanut butter",3.814,0.1429,0.0429,0.7143, protein
+"protein powder,musclepharm,strawberry cheesecake",3.929,0.1714,0.0429,0.7143, protein
+"protein powder,muscletech 100% whey",3.69,0.28,0.03,0.62, protein
+"protein powder,muscletech anabolic halo chocolate",3.794,0.2941,0.0294,0.5882, protein
+"protein powder,mutant isosurge birthday cake",1.17,0.02,0.01,0.25, protein
+"protein powder,myofusion (old version-all flavours)",4.083,0.139,0.083,0.694, protein
+"protein powder,myofusion (probiotic version)",3.85,0.23,0.05,0.62, protein
+"protein powder,myofusion advanced",3.75,0.1316,0.0658,0.6579, protein
+"protein powder,myofusion elite",4.2,0.14,0.09,0.71, protein
+"protein powder,myprotein power,chocolate",3.988,0.06,0.068,0.784, protein
+"protein powder,myprotein true whey cookies & cream",3.939899833,3.939899833,0.068113523,0.759933222, protein
+"protein powder,natera hemp",3.983,0.2333,0.1167,0.5, protein
+"protein powder,natural whey isolate",3.44,0.16,0.03,0.63, protein
+"protein powder,natures best javapro (french vanilla)",3.625,0.0714,0.0536,0.7143, protein
+"protein powder,new solutions nutrition,chocolate",3.969,0.126,0.063,0.7244, protein
+"protein powder,nitro peak",4.17,0.17,0.1,0.67, protein
+"protein powder,nitro pro whey isolate",2.583,0.074,0.009,0.551, protein
+"protein powder,nla her whey",3.62,0.12,0.1,0.56, protein
+"protein powder,nnw healthy whey",3.56,0.04,0.04,0.77, protein
+"protein powder,north coast naturals,100% iso,chocolate",3.866,0.069,0.031,0.8276, protein
+"protein powder,now pea",3.64,0.03,0.06,0.73, protein
+"protein powder,now whey pure isolate",3.75,0.04,0.01,0.89, protein
+"protein powder,nrg-x sublime chocolate chip",3.576,0.0909,0.0606,0.6667, protein
+"protein powder,nutribiotic rice protein",3.67,0.12,0.02,0.8, protein
+"protein powder,nutrition direct whey",3.47,0.02,0.01,0.83, protein
+"protein powder,nytrowhey ultra elite-chocolate",3.98,0.27,0.11,0.48, protein
+"protein powder,optimum nutrition 100% gold standard whey,chocolate",3.906,0.1563,0.0313,0.75, protein
+"protein powder,optimum nutrition 100% standard whey,double chocolate",3.9,0.1,0.0333,0.8, protein
+"protein powder,optimum nutrition 100% whey gold standard",3.98,0.102,0.034,0.816, protein
+"protein powder,optimum nutrition casein",3.64,0.09,0.03,0.73, protein
+"protein powder,optimum nutrition chocolate egg white",3.69,0.12,0.03,0.74, protein
+"protein powder,optimum nutrition gold standard whey",4.08,0.1,0.03,0.82, protein
+"protein powder,optimum nutrition performance whey",4.1,0.18,0.1,0.56, protein
+"protein powder,optimum nutrition platinum tri-celle casein chocolate decadence flavor",3.558,0.1395,0.0233,0.6977, protein
+"protein powder,optimum nutrition,platinum hydro whey",3.513,0.0513,0.0256,0.7692, protein
+"protein powder,optimum whey",3.9,0.1,0.033,0.8, protein
+"protein powder,orgain,organic creamy chocolate (plant based)",3.739,0.2826,0.087,0.4565, protein
+"protein powder,pes select",3.813,0.0313,0.0625,0.7813, protein
+"protein powder,pescience,blondie",3.656,0.0938,0.0313,0.75, protein
+"protein powder,pescience,cookies n cream",3.547,0.0313,0.0469,0.75, protein
+"protein powder,pescience,peanut butter cup",3.6,0.1231,0.0308,0.7077, protein
+"protein powder,phd diet whey",3.65,0.12,0.05,0.68, protein
+"protein powder,phd pharma pure",4.033,0.0333,0.0333,0.9, protein
+"protein powder,phd whey",3.8,0.08,0.06,0.73, protein
+"protein powder,phoenix rising",3.56,0.04,0,0.85, protein
+"protein powder,pierce performance nutrition vanilla",3.64,0.06,0.05,0.76, protein
+"protein powder,plant fusion",4,0.1333,0.0667,0.7, protein
+"protein powder,power whey isolate",4,0.04,0.03,0.86, protein
+"protein powder,precision engineer whey",3.7,0.04,0.09,0.67, protein
+"protein powder,pro v 60",3.94,0.15,0.04,0.75, protein
+"protein powder,professional whey micellar casein",3.67,0.05,0.02,0.86, protein
+"protein powder,professional whey wpi",3.7,0,0.01,0.93, protein
+"protein powder,progressive organics,brown rice,natural vanilla",3.6,0.1,0,0.8, protein
+"protein powder,projym chocolate cookie crunch",4.018,0.1809,0.0904,0.6202, protein
+"protein powder,projym cookies and cream",4.003,0.1445,0.0723,0.6936, protein
+"protein powder,promasil",3.6,0,0.04,0.8, protein
+"protein powder,protizyme",3.86,0.09,0.09,0.69, protein
+"protein powder,pure protein",3.78,0.08,0.08,0.68, protein
+"protein powder,pure protein natural whey (chocolate)",3.94,0.15,0.06,0.7, protein
+"protein powder,purepaleo chocolate",4.056,0.1111,0.0556,0.7778, protein
+"protein powder,pvl iso sport whey,vanilla",4.162,0.0588,0.0441,0.8824, protein
+"protein powder,pvl isogold,cookies and cream",4.188,0.0625,0.0625,0.8438, protein
+"protein powder,pvl whey gourmet - peanut butter chocolate",3.806,0.129,0.065,0.677, protein
+"protein powder,quest cookies and cream",3.797,0.2188,0.0469,0.625, protein
+"protein powder,quest multi purpose mix",3.571,0.0357,0,0.8571, protein
+"protein powder,quest peanut butter",3.633,0.0667,0.0333,0.7667, protein
+"protein powder,quest salted caramel",3.571,0.1071,0,0.7857, protein
+"protein powder,quest,chocolate milkshake",3.6,0.1333,0,0.7667, protein
+"protein powder,quest,strawberries & cream",3.428637843,0.106927011,0,0.75023245, protein
+"protein powder,quest,vanilla milkshake",3.571,0.1071,0,0.7857, protein
+"protein powder,reflex instant whey pro",3.852,0.064,0.044,0.8, protein
+"protein powder,reserveage grass fed whey protein (chocolate)",3.439,0.1212,0.0455,0.6364, protein
+"protein powder,revolutionary nutrition bionic edge whey",3.53,0.063,0.031,0.75, protein
+"protein powder,rsp nutrition,vanilla whey",4.059,0.1471,0.0588,0.7353, protein
+"protein powder,scivation whey",3.661,0.035,0.035,0.775, protein
+"protein powder,shakeology chocolate",3.81,0.38,0.05,0.38, protein
+"protein powder,sni,pro whey pw-30",3.453,0.1467,0.0222,0.6667, protein
+"protein powder,spiru-tein,french vanilla",3.443,0.3143,0.0143,0.5143, protein
+"protein powder,sun warrior",3.81,0.19,0,0.76, protein
+"protein powder,sunwarrior,warrior blend,vanilla",4.08,0.08,0.08,0.76, protein
+"protein powder,syntha-6",4.55,0.32,0.14,0.5, protein
+"protein powder,syntrax nectar",3.43,0,0,0.86, protein
+"protein powder,teras whey",3.87,0.14,0.05,0.74, protein
+"protein powder,teras whey,chocolate (grass fed)",4.214,0.1786,0.0714,0.7143, protein
+"protein powder,tested nutrition - chocolate",4.208,0.1667,0.0972,0.6667, protein
+"protein powder,titan complete nutrition",4.07,0.12,0.07,0.75, protein
+"protein powder,true nutrition vegan",3.91,0.09,0.04,0.78, protein
+"protein powder,true protein whey protein isolate cold-filtration. unflavored/unsweetened",3.6,0,0,0.9, protein
+"protein powder,trutein pumpkin pie",3.676,0.1471,0.0294,0.7059, protein
+"protein powder,trutein,banana cream",3.794,0.1471,0.0294,0.7353, protein
+"protein powder,trutein,choc truffle",3.735,0.1324,0.0294,0.7353, protein
+"protein powder,trutein,chocolate mint",3.735,0.1324,0.0294,0.7353, protein
+"protein powder,trutein,chocolate pb cup",3.809,0.1176,0.0441,0.7353, protein
+"protein powder,trutein,cinnabun",3.676,0.1471,0.0294,0.7059, protein
+"protein powder,trutein,lemon meringue pie",3.618,0.1324,0.0294,0.7059, protein
+"protein powder,trutein,mocha caramel",3.574,0.1471,0.0441,0.6471, protein
+"protein powder,trutein,orange creamsicle",3.618,0.1324,0.0294,0.7059, protein
+"protein powder,trutein,pb marshmallow cookie",3.676,0.1176,0.0294,0.7353, protein
+"protein powder,trutein,red velvet",4.265,0.1471,0.1471,0.5882, protein
+"protein powder,trutein,shamrock shake",3.676,0.1176,0.0294,0.7353, protein
+"protein powder,trutein,smores",4.63,0.1852,0.037,0.8889, protein
+"protein powder,trutein,vanilla",3.53,0.15,0.03,0.74, protein
+"protein powder,ultimate nutrition bioactive whey sensation 81",4,0.07,0.05,0.8, protein
+"protein powder,ultimate nutrition iso sensation",4.06,0.03,0,0.94, protein
+"protein powder,usn ultra whey -100 premium",3.831,0.0846,0.0462,0.7692, protein
+"protein powder,v-core complete nutrition",3.97,0.13,0.07,0.66, protein
+"protein powder,vega one",4.429,0.3095,0.1429,0.4762, protein
+"protein powder,vega one nutritional shake",3.388,0.2638,0.0887,0.3837, protein
+"protein powder,vega sport",3.24,0.16,0.03,0.7, protein
+"protein powder,vp2",3.75,0.07,0.04,0.82, protein
+"protein powder,vpx zero carb",3.4,0,0,0.85, protein
+"protein powder,warrior blend,vanilla",4.08,0.08,0.08,0.76, protein
+"protein powder,whey gourmet",3.933,0.1333,0.0667,0.7, protein
+"protein powder,wheyology all flavours",4.15,0.1,0.09,0.74, protein
+"protein powder,woman incredible",3.678,0.0235,0.0076,0.879, protein
+pumpkin,0.337,0.067,0.003,0.011, carbs
+quinoa,1.2,0.213,0.019,0.044, carbs
+"quinoa & flax,hodgson mill,hot cereal",3.87501321,0.649945398,0.075034347,0.150068693, carbs
+quinoa flakes,3.71,0.64,0.07,0.13, carbs
+"quinoa macaroni,gogo quinoa",3.661,0.7857,0.0179,0.0893, carbs
+"Quinoa, cooked",0.019189189,0.044,0.213027027,1.2,Starches
+"Quinoa, uncooked",0.060705882,0.141176471,0.641588235,3.682352941,Starches
+"quinoa,ancient harvest flakes",3.857,0.6286,0.06,0.1257, carbs
+"quinoa,ancient harvest pasta (dry)",3.6,0.81,0.02,0.07, carbs
+"quinoa,bobs red mill (dry)",3.81,0.67,0.06,0.14, carbs
+"quinoa,roland (dry)",3.56,0.64,0.06,0.13, carbs
+"quinoa,roland garden vegetable (dry)",3.611,0.6444,0.0556,0.1333, carbs
+"quinoa,roland roasted garlic (dry)",3.622,0.6222,0.0667,0.1333, carbs
+"Raspberries, raw",0.006504065,0.01203252,0.119430894,0.520325203,Fruits
+"rice and beans,eden organic cajun (canned)",0.823,0.165,0.008,0.023, carbs
+"rice and beans,eden organic carribean (canned)",0.838,0.162,0.008,0.031, carbs
+"rice cake,butter toffee",4.033,0.8667,0.0333,0.0667, carbs
+"rice cake,caramel chocolate chip",4.033,0.8667,0.0333,0.0667, carbs
+"rice cake,lundberg brown rice",3.395,0.7368,0.0263,0.0526, carbs
+"rice cakes,caramel",3.692,0.8462,0,0.0769, carbs
+"rice cakes,lundberg brown",3.395,0.7368,0.0263,0.0526, carbs
+"rice cakes,mini caramel corn",3.67,0.87,0.02,0.03, carbs
+"rice cakes,quaker apple cinnamon",3.85,0.85,0,0.08, carbs
+"rice cakes,quaker butter popcorn minis",4.775,0.7,0.175,0.1, carbs
+"rice cakes,quaker chocolate chunk",4.067,0.8,0.0667,0.0667, carbs
+"rice cakes,quaker mini cheddar",4.67,0.7,0.17,0.07, carbs
+"rice cakes,quaker ranch",4.33,0.7,0.17,0.07, carbs
+"rice cakes,quaker white cheddar",3.682,0.7273,0.0455,0.0909, carbs
+"rice cakes,sunrice sea salt & balsamic vinegar",3.879933688,0.689922754,0.080067722,0.080067722, carbs
+"Rice noodles, cooked",0.001988636,0.017897727,0.240113636,1.079545455,Starches
+"rice sticks,dynasty dry",3.447,0.8421,0.0088,0, carbs
+"Rice, brown, long-grain, cooked",0.00970297,0.027376238,0.255792079,1.227722772,Starches
+"Rice, white, long-grain, parboiled, enriched, cooked",0.003670886,0.029113924,0.260506329,1.227848101,Starches
+"Rice, white, short-grain, enriched, cooked",0.00188172,0.023602151,0.287311828,1.301075269,Starches
+"rice,annie chuns,white sticky",1.41,0.3238,0,0.0286, carbs
+"rice,basmati",1.03,0.23,0,0.02, carbs
+"rice,basmati (kirkland)",1.147,0.2657,0,0.021, carbs
+"rice,brown",1.11,0.23,0.009,0.026, carbs
+"rice,brown basmati (ecolife),cooked",0.648,0.1379,0.0038,0.0153, carbs
+"rice,brown basmati,good health",3.631,0.7667,0.0222,0.0911, carbs
+"rice,brown jasmine rice,trader joes (cooked)",1.315,0.2741,0.0111,0.0296, carbs
+"rice,brown medley (trader joes) cooked",1.035,0.2129,0.0032,0.0387, carbs
+"rice,brown trader joes instant",1.682,0.3784,0.0068,0.027, carbs
+"rice,brown trader joes medley (dry)",3.567,0.7333,0.0111,0.1333, carbs
+"rice,brown y&y vermicelli",3.52,0.82016,0,0.06016, carbs
+"rice,brown,sprouts long grain basmati",1.76,0.37,0.02,0.04, carbs
+"rice,carolina jasmine rice (dry)",3.467,0.8,0,0.0667, carbs
+"rice,heirloom forbidden rice (dry)",3.567,0.7167,0.0333,0.1, carbs
+"rice,jasmine,thai hom mali (cooked)",1.463,0.3415,0,0.0244, carbs
+"rice,minute brown (cooked)",1.856,0.352,0.032,0.04, carbs
+"rice,minute multi-grain medley w/ quinoa,cooked",0.928,0.1897,0.0086,0.023, carbs
+"rice,natures path organic crispy brown",3.783,0.767,0.05,0.067, carbs
+"rice,nishiki white sushi (uncooked)",3.429,0.7857,0,0.0714, carbs
+"rice,organic millet & brown rice ramen",3.642866605,0.685852431,0.04305206,0.12849384, carbs
+"rice,sticky white",1.18,0.26,0,0.03, carbs
+"rice,sukoyaka genmai brown rice (pre-cooked)",3.478,0.7778,0.0111,0.0667, carbs
+"rice,uncle bens bistro express cheddar cheese",1.456,0.2556,0.0333,0.0333, carbs
+"rice,uncle bens ready rice (whole grain brown variety)",1.45,0.2786,0.0214,0.0357, carbs
+"rice,uncle bens ready rice- basmati",1.65,0.33,0.02,0.05, carbs
+"rice,uncle bens ready rice in brown basmati",1.69,0.3285,0.0255,0.0365, carbs
+"rice,uncle bens red beans & rice,ready rice",1.431974693,0.278844527,0.017053517,0.040746189, carbs
+"rice,uncle bens spanish style ready rice",1.378,0.2778,0.0174,0.0278, carbs
+"rice,uncle bens,original ready rice",1.418,0.2857,0.0179,0.0286, carbs
+"rice,white",1.26,0.282,0.003,0.027, carbs
+"rice,wild",1.003,0.204,0.003,0.04, carbs
+"Rolls, hamburger, whole grain white, calcium-fortified",0.034883721,0.093023256,0.465116279,2.558139535,Starches
+rutabagas,0.384,0.0784,0.002,0.013, carbs
+"seafood,tuna wild planet wild albacore",1.491,0,0.0625,0.2321, protein
+"seafood,tuna,canned",1.16,0,0.008,0.255, protein
+"seafood,wild swordfish steaks - whole catch brand (from whole foods) -",1.257,0,0.053,0.195, protein
+"Seeds, flaxseed",0.421359223,0.182524272,0.288349515,5.339805825,Nuts
+"Seeds, pumpkin and squash seed kernels, roasted, with salt added",0.490508475,0.298389831,0.147118644,5.737288136,Nuts
+"Seeds, pumpkin and squash seeds, whole, roasted",0.1940625,0.18546875,0.5375,4.453125,Nuts
+"Seeds, sesame butter, paste",0.50875,0.180625,0.240625,5.875,Nuts
+"Seeds, sesame butter, tahini",0.53,0.174,0.215333333,5.933333333,Nuts
+"Seeds, sesame butter, tahini, from raw and stone ground kernels",0.48,0.178,0.262,5.733333333,Nuts
+"Seeds, sesame butter, tahini, from roasted and toasted kernels (most common type)",0.537333333,0.17,0.212,5.933333333,Nuts
+"Seeds, sesame butter, tahini, from unroasted kernels (non-chemically removed seed coat)",0.564285714,0.179285714,0.178571429,6.071428571,Nuts
+"Seeds, sesame flour, high-fat",0.371075838,0.307936508,0.266313933,5.255731922,Nuts
+"Seeds, sesame seed kernels, dried (decorticated)",0.612066667,0.204533333,0.117266667,6.306666667,Nuts
+"Seeds, sesame seed kernels, toasted, with salt added (decorticated)",0.48,0.169609375,0.260390625,5.671875,Nuts
+"Seeds, sunflower seed kernels from shell, dry roasted, with salt added",0.49796875,0.19328125,0.153125,5.4609375,Nuts
+"Seeds, watermelon seed kernels, dried",0.473703704,0.283333333,0.153055556,5.574074074,Nuts
+Shrimp,0.017058824,0.227764706,0.015176471,1.188235294,Seafood
+"Squash, Acorn",0,0,0.1,0.4,Starches
+"Squash, Butternut",0,,0.1,0.5,Starches
+"Squash, Kobocha",0,0,0.1,0.4,Starches
+"Squash, Spaghetti",0,0,0.1,0.3,Starches
+"Strawberries, raw",0.003026316,0.006710526,0.076776316,0.322368421,Fruits
+Sweet Potato,0,0,0.2,0.9,Starches
+"Tangerines, (mandarin oranges), raw",0.003076923,0.008102564,0.133384615,0.528205128,Fruits
+"tortilla,dempsters whole wheat",2.897,0.4706,0.0735,0.0882, carbs
+Turkey bacon ,0.169285714,0.159285714,0.018571429,2.285714286,Meat
+"turkey bacon,butterball fully cooked",2.727,0,0.1818,0.2727, protein
+"Turkey ham, sliced, extra lean, prepackaged or deli-sliced",0.037971014,0.196014493,0.029275362,1.239130435,Meat
+"Turkey,  light meat",0.020823529,0.301294118,0,1.470588235,Meat
+"Turkey, ground 97% lean",0.03116,0.23217,,1.21,Meat
+"Turkey, white, rotisserie, deli cut",0.03,0.135,0.077083333,1.125,Meat
+"Vegetable oil, palm kernel",1,0,0,8.602941176,oils
+venison (deer loin-lean),1.58,0,0.032,0.302, protein
+"venison,ground 80/20 (venison/beef)",2.374,0,0.1515,0.2525, protein
+"Wheat, KAMUT khorasan, cooked",0.008313953,0.057093023,0.275988372,1.319767442,Starches
+White Potato,0,0,0.2,0.7,Starches
+Yogurt plain,0.10358,0.07968,0.3984,1.414,Dairy
