@@ -11,10 +11,11 @@ input, select {
   color: #0068a1;
   border-radius: 2px;
   border-style: none;
+  max-width: 250px;
 }
 
 a {
-  text-decoration:none;
+  text-decoration: none;
   height: 100%;
 }
 
@@ -27,42 +28,52 @@ label {
   vertical-align: middle;
 }
 
-.left{
-  float:left;
+.left {
+  float: left;
 }
 
-.right{
+.right {
   float: right;
 }
 
+
 /* Dropdown Content (Hidden by Default) */
+
 .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    width: 302px;
-    max-height: 50vh;
-    overflow: scroll;
-    margin: 0px;
-    padding: 0px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  width: 252px;
+  max-height: 50vh;
+  overflow: scroll;
+  margin: 0px;
+  padding: 0px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
 }
+
 
 /* items inside the dropdown */
+
 .dropdown-content li {
-    color: black;
-    font-size: 14px;
-    padding: 10px 10px;
-    display: block;
+  color: black;
+  font-size: 14px;
+  padding: 10px 10px;
+  display: block;
 }
 
+
 /* Change color of dropdown links on hover */
-.dropdown-content li:hover {background-color: #f1f1f1}
+
+.dropdown-content li:hover {
+  background-color: #f1f1f1
+}
+
 
 /* Show the dropdown menu on hover */
+
 .dropdown:hover .dropdown-content {
-    display: block;
+  display: block;
 }
 
 .dontshow {
@@ -98,14 +109,19 @@ label {
   height: auto;
   min-height: 500px;
   width: 500px;
-  background: #0068a1; /* For browsers that do not support gradients */
-  background: -webkit-linear-gradient(right bottom, #0068a1 50%, #a1dc51 50%); /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(right bottom, #0068a1 50%, #a1dc51 50%); /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(right bottom, #0068a1 50%, #a1dc51 50%); /* For Firefox 3.6 to 15 */
-  background: linear-gradient(to right bottom, #0068a1 50%, #a1dc51 50%);
+  background: #0068a1;
   border-radius: 3px;
   border-style: none;
-  padding: 20px;
+}
+
+#blue {
+  background: #0068a1;
+  padding: 20px 20px 0 20px ;
+}
+
+#green {
+  background: #a1dc51;
+  padding: 40px 20px 20px 20px ;
 }
 
 #title {
@@ -115,18 +131,26 @@ label {
   text-align: center;
 }
 
-#initial_input{  width: 300px;}
+#initial_input {
+  width: 300px;
+}
 
-#substitute_input{  width: 300px;}
+#substitute_input {
+  width: 300px;
+}
 
 #output_div {
   background-color: white;
-	overflow: hidden;
+  overflow: hidden;
   border-radius: 3px;
 }
 
 #output {
-color: #f58d1e;
+  color: #0068a1;
+}
+
+#weight {
+  color: #f58d1e;
 }
 
 #reset_button {

@@ -14,10 +14,10 @@ function calculate() {
   if (UNITS_TO_BE_SUBSTITUTED === 'Ounces') {
     var resultInGrams = (AMOUNT_TO_BE_SUBSTITUTED * GRAMS_IN_OUNCES * FTBSI)  / SFI;
     var result = resultInGrams / GRAMS_IN_OUNCES;
-    var output = String(result.toFixed(2)) + OZ + OUTPUT_MESSAGE;
+    var output = "<span id=\"weight\">" + String(result.toFixed(2)) + OZ + "</span>" + OUTPUT_MESSAGE;
   } else {
     var result = (AMOUNT_TO_BE_SUBSTITUTED * FTBSI) / SFI;
-    var output = String(result.toFixed(2)) + G + OUTPUT_MESSAGE;
+    var output = "<span id=\"weight\">" + String(result.toFixed(2)) + G + "</span>" + OUTPUT_MESSAGE;
   }
   if (AMOUNT_TO_BE_SUBSTITUTED <= 0 || isNaN(AMOUNT_TO_BE_SUBSTITUTED)) {
     var output = "Please input a food amount";
@@ -25,7 +25,7 @@ function calculate() {
   if (FTBSI <= 0 || SFI <= 0) {
     var output = "Please select foods from the dropdown menu";
   }
-  document.getElementById('output').innerText = output;
+  document.getElementById('output').innerHTML = output;
   document.getElementById('output_div').className += ' show';
   document.getElementById('reset_button').className =+ ' resetshow';
 }
@@ -98,7 +98,7 @@ function setSubstituteFood(){
   }
 }
 
-Papa.parse("https://absolutecoachingcalculator.rotaru.co/data.csv", {
+Papa.parse("https://rawgit.com/DragosRotaru/Absolute-Coaching-Food-Substitution-Calculator/master/data.csv", {
 	download: true,
   header: true,
   dynamicTyping: true,
