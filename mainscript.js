@@ -85,7 +85,7 @@ function setFoodToBeSubstituted() {
       }
       data2 = tempData.sort(function(a, b) {
         return a.score - b.score;
-      }).slice(0, 50);
+      }).slice(0, tempData.length / 3);
       dataToDataList(data2, 'substitute_food_input_autocomplete_list');
     }
   }

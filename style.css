@@ -130,10 +130,17 @@ a {
   -o-transition: max-height 0.6s linear;
   -ms-transition: max-height 0.6s linear;
   transition: max-height 0.6s linear;
+  opacity: 0;
+  -webkit-transition: opacity 0.6s linear;
+  -moz-transition: opacity 0.6s linear;
+  -o-transition: opacity 0.6s linear;
+  -ms-transition: opacity 0.6s linear;
+  transition: opacity 0.6s linear;
 }
 
 .show {
   padding: 10px 10px;
+  opacity: 1;
   max-height: 60px;
 }
 
