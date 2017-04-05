@@ -11,7 +11,6 @@ input, select {
   color: #0068a1;
   border-radius: 2px;
   border-style: none;
-  max-width: 250px;
 }
 
 a {
@@ -43,7 +42,7 @@ label {
   display: none;
   position: absolute;
   background-color: #f9f9f9;
-  width: 252px;
+  width: 302px;
   max-height: 50vh;
   overflow: scroll;
   margin: 0px;
@@ -110,18 +109,17 @@ label {
   min-height: 500px;
   width: 500px;
   background: #0068a1;
+  /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(right bottom, #0068a1 50%, #a1dc51 50%);
+  /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right bottom, #0068a1 50%, #a1dc51 50%);
+  /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right bottom, #0068a1 50%, #a1dc51 50%);
+  /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right bottom, #0068a1 50%, #a1dc51 50%);
   border-radius: 3px;
   border-style: none;
-}
-
-#blue {
-  background: #0068a1;
-  padding: 20px 20px 0 20px ;
-}
-
-#green {
-  background: #a1dc51;
-  padding: 40px 20px 20px 20px ;
+  padding: 20px;
 }
 
 #title {
@@ -146,11 +144,11 @@ label {
 }
 
 #output {
-  color: #0068a1;
+  color: #f58d1e;
 }
 
 #weight {
-  color: #f58d1e;
+  color: #0068a1;
 }
 
 #reset_button {
