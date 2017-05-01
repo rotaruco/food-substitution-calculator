@@ -83,7 +83,7 @@ function setFoodToBeSubstituted() {
       }
       data2 = tempData.sort(function(a, b) {
         return a.score - b.score;
-      }).slice(0, tempData.length / 3);
+      }).slice(0, tempData.length );
       dataToDataList(data2, 'substitute_list');
     }
   }
