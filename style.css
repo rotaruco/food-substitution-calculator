@@ -42,7 +42,7 @@ label {
   display: none;
   position: absolute;
   background-color: #f9f9f9;
-  width: 302px;
+  width: 40.15vw;
   max-height: 50vh;
   overflow: scroll;
   margin: 0px;
@@ -107,7 +107,7 @@ label {
 #calculator_container {
   height: auto;
   min-height: 500px;
-  width: 500px;
+  width: auto;
   background: #0068a1;
   /* For browsers that do not support gradients */
   background: -webkit-linear-gradient(right bottom, #0068a1 50%, #a1dc51 50%);
@@ -130,11 +130,11 @@ label {
 }
 
 #initial_input {
-  width: 300px;
+  width: 40vw;
 }
 
 #substitute_input {
-  width: 300px;
+  width: 40vw;
 }
 
 #output_div {
@@ -153,7 +153,8 @@ label {
 
 #reset_button {
   height: 60px;
-  width: 200px;
+  max-width: 200px;
+  width: 40vw;
   color: white;
   background-color: #f58d1e;
   border-color: #f58d1e;
